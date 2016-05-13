@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Gap_based_trigger_nointr/src/xgpio_low_level_example.c&apos; to &apos;hoping_pps_sync.c&apos;" description="Rename resource &apos;xgpio_low_level_example.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/xgpio_low_level_example.c" name="hoping_pps_sync.c" stamp="1463119579369" updateReferences="true"/>
+</session>

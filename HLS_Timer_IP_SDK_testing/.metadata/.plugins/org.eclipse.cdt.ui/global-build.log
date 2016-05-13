@@ -999,3 +999,3333 @@ make: Nothing to be done for `all'.
 10:40:46 **** Auto Build of configuration Debug for project Timer_testing ****
 make all 
 make: Nothing to be done for `all'.
+11:01:02 **** Auto Build of project standalone_bsp_0 ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/bram_v4_0/src
+make -C ps7_cortexa9_0/libsrc/bram_v4_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_1/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/fir_v1_0/src
+make -C ps7_cortexa9_0/libsrc/fir_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_0/src
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_1/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_5/src
+make -C ps7_cortexa9_0/libsrc/sdps_v2_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_2/src
+make -C ps7_cortexa9_0/libsrc/standalone_v5_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make libs in ps7_cortexa9_0/libsrc/bram_v4_0/src
+make -C ps7_cortexa9_0/libsrc/bram_v4_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling bram
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_1/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling coresightps_dcc
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling cpu_cortexa9
+Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling ddrps
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling devcfg
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling dmaps
+Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling emacps
+Running Make libs in ps7_cortexa9_0/libsrc/fir_v1_0/src
+make -C ps7_cortexa9_0/libsrc/fir_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling fir
+Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_0/src
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling gpio
+Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling qspips
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_1/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling scugic
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling scutimer
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling scuwdt
+Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_5/src
+make -C ps7_cortexa9_0/libsrc/sdps_v2_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling sdps
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_2/src
+make -C ps7_cortexa9_0/libsrc/standalone_v5_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling standalone
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling uartps
+Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling usbps
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling xadcps
+Finished building libraries
+11:01:21 **** Auto Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+11:04:43 **** Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/platform.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building file: ../src/xfir.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xfir.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xfir.d" -MT"src/xfir.d" -o "src/xfir.o" "../src/xfir.c"
+Finished building: ../src/xfir.c
+ 
+Building file: ../src/xgpio_low_level_example.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_low_level_example.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_low_level_example.d" -MT"src/xgpio_low_level_example.d" -o "src/xgpio_low_level_example.o" "../src/xgpio_low_level_example.c"
+../src/xgpio_low_level_example.c: In function 'main':
+../src/xgpio_low_level_example.c:71:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/xgpio_low_level_example.c:74:9: warning: unknown escape sequence: '\P'
+  printf("\Post ap_start is . . . %d i :%d \n",status,i);
+         ^
+../src/xgpio_low_level_example.c:88:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(10);
+  ^
+../src/xgpio_low_level_example.c:33:6: warning: unused variable 'TLRx' [-Wunused-variable]
+  u32 TLRx;
+      ^
+../src/xgpio_low_level_example.c:31:6: warning: unused variable 'Data' [-Wunused-variable]
+Finished building: ../src/xgpio_low_level_example.c
+  u32 Data[100];
+      ^
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/platform.o ./src/xfir.o ./src/xfir_linux.o ./src/xgpio_low_level_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64308	   2320	  22652	  89280	  15cc0	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+11:06:20 **** Clean-only build of configuration Debug for project Gap_based_trigger_nointr ****
+make clean 
+rm -rf  ./src/platform.o ./src/xfir.o ./src/xfir_linux.o ./src/xgpio_low_level_example.o  ./src/platform.d ./src/xfir.d ./src/xfir_linux.d ./src/xgpio_low_level_example.d  Gap_based_trigger_nointr.elf.size  Gap_based_trigger_nointr.elf
+ 
+11:06:20 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:71:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:74:9: warning: unknown escape sequence: '\P'
+  printf("\Post ap_start is . . . %d i :%d \n",status,i);
+         ^
+../src/hoping_pps_sync.c:88:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(10);
+  ^
+../src/hoping_pps_sync.c:33:6: warning: unused variable 'TLRx' [-Wunused-variable]
+  u32 TLRx;
+      ^
+../src/hoping_pps_sync.c:31:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building file: ../src/platform.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building file: ../src/xfir.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xfir.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xfir.d" -MT"src/xfir.d" -o "src/xfir.o" "../src/xfir.c"
+Finished building: ../src/xfir.c
+ 
+Building file: ../src/xfir_linux.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xfir_linux.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xfir_linux.d" -MT"src/xfir_linux.d" -o "src/xfir_linux.o" "../src/xfir_linux.c"
+Finished building: ../src/xfir_linux.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64308	   2320	  22652	  89280	  15cc0	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+11:07:12 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+11:07:13 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+11:09:52 **** Auto Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+11:09:52 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+11:10:30 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:64:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:67:9: warning: unknown escape sequence: '\P'
+  printf("\Post ap_start is . . . %d i :%d \n",status,i);
+         ^
+../src/hoping_pps_sync.c:81:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(10);
+  ^
+../src/hoping_pps_sync.c:26:6: warning: unused variable 'TLRx' [-Wunused-variable]
+  u32 TLRx;
+      ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64308	   2320	  22652	  89280	  15cc0	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+11:10:42 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:63:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:66:9: warning: unknown escape sequence: '\P'
+  printf("\Post ap_start is . . . %d i :%d \n",status,i);
+         ^
+../src/hoping_pps_sync.c:80:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(10);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64308	   2320	  22652	  89280	  15cc0	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+11:21:59 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:63:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:66:9: warning: unknown escape sequence: '\P'
+  printf("\Post ap_start is . . . %d i :%d \n",status,i);
+         ^
+../src/hoping_pps_sync.c:80:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(10);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64308	   2320	  22652	  89280	  15cc0	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+11:22:12 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:63:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:66:9: warning: unknown escape sequence: '\P'
+  printf("\Post ap_start is . . . %d i :%d \n",status,i);
+         ^
+../src/hoping_pps_sync.c:80:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(10);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64308	   2320	  22652	  89280	  15cc0	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+11:22:44 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:63:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:66:9: warning: unknown escape sequence: '\P'
+  printf("\Post ap_start is . . . %d i :%d \n",status,i);
+         ^
+../src/hoping_pps_sync.c:80:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(10);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64308	   2320	  22652	  89280	  15cc0	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+11:23:08 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:63:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:66:9: warning: unknown escape sequence: '\P'
+  printf("\Post ap_start is . . . %d i :%d \n",status,i);
+         ^
+../src/hoping_pps_sync.c:80:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(10);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64308	   2320	  22652	  89280	  15cc0	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+11:23:19 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:61:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:64:9: warning: unknown escape sequence: '\P'
+  printf("\Post ap_start is . . . %d i :%d \n",status,i);
+         ^
+../src/hoping_pps_sync.c:78:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(10);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64308	   2320	  22652	  89280	  15cc0	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+11:23:51 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:61:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:64:9: warning: unknown escape sequence: '\P'
+  printf("\Post ap_start is . . . %d i :%d \n",status,i);
+         ^
+../src/hoping_pps_sync.c:78:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(10);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64308	   2320	  22652	  89280	  15cc0	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+11:24:09 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:61:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:64:9: warning: unknown escape sequence: '\P'
+  printf("\Post ap_start is . . . %d i :%d \n",status,i);
+         ^
+../src/hoping_pps_sync.c:76:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(10);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64308	   2320	  22652	  89280	  15cc0	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+11:24:25 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:61:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:64:9: warning: unknown escape sequence: '\P'
+  printf("\Post ap_start is . . . %d i :%d \n",status,i);
+         ^
+../src/hoping_pps_sync.c:76:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(10);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64308	   2320	  22652	  89280	  15cc0	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+11:25:35 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:61:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:64:9: warning: unknown escape sequence: '\P'
+  printf("\Post ap_start is . . . %d i :%d \n",status,i);
+         ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64244	   2320	  22652	  89216	  15c80	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+11:25:43 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+11:25:43 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+11:26:33 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:61:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:64:9: warning: unknown escape sequence: '\P'
+  printf("\Post ap_start is . . . %d i :%d \n",status,i);
+         ^
+../src/hoping_pps_sync.c:76:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(10);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64308	   2320	  22652	  89280	  15cc0	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+11:26:40 **** Clean-only build of configuration Debug for project Gap_based_trigger_nointr ****
+make clean 
+rm -rf  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o  ./src/hoping_pps_sync.d ./src/platform.d ./src/xfir.d ./src/xfir_linux.d  Gap_based_trigger_nointr.elf.size  Gap_based_trigger_nointr.elf
+ 
+11:26:41 **** Clean-only build of configuration Debug for project Timer_testing ****
+make clean 
+rm -rf  ./src/platform.o ./src/timerIP_test.o ./src/xfir.o ./src/xfir_linux.o  ./src/platform.d ./src/timerIP_test.d ./src/xfir.d ./src/xfir_linux.d  Timer_testing.elf.size  Timer_testing.elf
+ 
+11:26:41 **** Clean-only build of project standalone_bsp_0 ****
+make -k clean 
+rm -f ps7_cortexa9_0/lib/libxil.a
+11:26:42 **** Build of project standalone_bsp_0 ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/bram_v4_0/src
+make -C ps7_cortexa9_0/libsrc/bram_v4_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_1/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/fir_v1_0/src
+make -C ps7_cortexa9_0/libsrc/fir_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_0/src
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_1/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_5/src
+make -C ps7_cortexa9_0/libsrc/sdps_v2_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_2/src
+make -C ps7_cortexa9_0/libsrc/standalone_v5_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make libs in ps7_cortexa9_0/libsrc/bram_v4_0/src
+make -C ps7_cortexa9_0/libsrc/bram_v4_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling bram
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_1/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling coresightps_dcc
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling cpu_cortexa9
+Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling ddrps
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling devcfg
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling dmaps
+Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling emacps
+Running Make libs in ps7_cortexa9_0/libsrc/fir_v1_0/src
+make -C ps7_cortexa9_0/libsrc/fir_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling fir
+Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_0/src
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling gpio
+Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling qspips
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_1/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling scugic
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling scutimer
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling scuwdt
+Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_5/src
+make -C ps7_cortexa9_0/libsrc/sdps_v2_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling sdps
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_2/src
+make -C ps7_cortexa9_0/libsrc/standalone_v5_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling standalone
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling uartps
+Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling usbps
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling xadcps
+Finished building libraries
+11:26:57 **** Build of configuration Debug for project Timer_testing ****
+make all 
+Building file: ../src/platform.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building file: ../src/timerIP_test.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/timerIP_test.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/timerIP_test.d" -MT"src/timerIP_test.d" -o "src/timerIP_test.o" "../src/timerIP_test.c"
+../src/timerIP_test.c: In function 'main':
+../src/timerIP_test.c:30:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(10);
+  ^
+../src/timerIP_test.c:21:10: warning: unused variable 'status' [-Wunused-variable]
+  int i=0,status;
+          ^
+../src/timerIP_test.c:21:6: warning: unused variable 'i' [-Wunused-variable]
+  int i=0,status;
+      ^
+../src/timerIP_test.c:19:6: warning: variable 'Number_Clks' set but not used [-Wunused-but-set-variable]
+  u32 Number_Clks = 300;
+      ^
+../src/timerIP_test.c:18:6: warning: unused variable 'TLRx' [-Wunused-variable]
+  u32 TLRx;
+      ^
+../src/timerIP_test.c:17:6: warning: unused variable 'Addr' [-Wunused-variable]
+  u32 Addr;
+      ^
+../src/timerIP_test.c:16:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/timerIP_test.c
+ 
+Building file: ../src/xfir.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xfir.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xfir.d" -MT"src/xfir.d" -o "src/xfir.o" "../src/xfir.c"
+Finished building: ../src/xfir.c
+ 
+Building file: ../src/xfir_linux.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xfir_linux.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xfir_linux.d" -MT"src/xfir_linux.d" -o "src/xfir_linux.o" "../src/xfir_linux.c"
+Finished building: ../src/xfir_linux.c
+ 
+Building target: Timer_testing.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Timer_testing.elf"  ./src/platform.o ./src/timerIP_test.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_testing.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Timer_testing.elf  |tee "Timer_testing.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25776	   1152	  22580	  49508	   c164	Timer_testing.elf
+Finished building: Timer_testing.elf.size
+ 
+11:26:59 **** Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:61:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:64:9: warning: unknown escape sequence: '\P'
+  printf("\Post ap_start is . . . %d i :%d \n",status,i);
+         ^
+../src/hoping_pps_sync.c:76:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(10);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building file: ../src/platform.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building file: ../src/xfir.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xfir.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xfir.d" -MT"src/xfir.d" -o "src/xfir.o" "../src/xfir.c"
+Finished building: ../src/xfir.c
+ 
+Building file: ../src/xfir_linux.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xfir_linux.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xfir_linux.d" -MT"src/xfir_linux.d" -o "src/xfir_linux.o" "../src/xfir_linux.c"
+Finished building: ../src/xfir_linux.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64308	   2320	  22652	  89280	  15cc0	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+11:27:24 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:61:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:64:9: warning: unknown escape sequence: '\P'
+  printf("\Post ap_start is . . . %d i :%d \n",status,i);
+         ^
+../src/hoping_pps_sync.c:76:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(10);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64308	   2320	  22652	  89280	  15cc0	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+11:27:29 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:61:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:64:9: warning: unknown escape sequence: '\P'
+  printf("\Post ap_start is . . . %d i :%d \n",status,i);
+         ^
+../src/hoping_pps_sync.c:79:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(20);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64308	   2320	  22652	  89280	  15cc0	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+11:27:43 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:61:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:64:9: warning: unknown escape sequence: '\P'
+  printf("\Post ap_start is . . . %d i :%d \n",status,i);
+         ^
+../src/hoping_pps_sync.c:76:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(3);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64308	   2320	  22652	  89280	  15cc0	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+11:27:58 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:61:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:64:9: warning: unknown escape sequence: '\P'
+  printf("\Post ap_start is . . . %d i :%d \n",status,i);
+         ^
+../src/hoping_pps_sync.c:76:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(3);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64308	   2320	  22652	  89280	  15cc0	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+11:28:26 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+11:28:26 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+11:29:25 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+11:29:26 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+11:30:44 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+11:30:44 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+11:31:00 **** Clean-only build of configuration Debug for project Gap_based_trigger_nointr ****
+make clean 
+rm -rf  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o  ./src/hoping_pps_sync.d ./src/platform.d ./src/xfir.d ./src/xfir_linux.d  Gap_based_trigger_nointr.elf.size  Gap_based_trigger_nointr.elf
+ 
+11:31:00 **** Clean-only build of configuration Debug for project Timer_testing ****
+make clean 
+rm -rf  ./src/platform.o ./src/timerIP_test.o ./src/xfir.o ./src/xfir_linux.o  ./src/platform.d ./src/timerIP_test.d ./src/xfir.d ./src/xfir_linux.d  Timer_testing.elf.size  Timer_testing.elf
+ 
+11:31:00 **** Clean-only build of project standalone_bsp_0 ****
+make -k clean 
+rm -f ps7_cortexa9_0/lib/libxil.a
+11:31:01 **** Build of project standalone_bsp_0 ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/bram_v4_0/src
+make -C ps7_cortexa9_0/libsrc/bram_v4_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_1/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/fir_v1_0/src
+make -C ps7_cortexa9_0/libsrc/fir_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_0/src
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_1/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_5/src
+make -C ps7_cortexa9_0/libsrc/sdps_v2_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_2/src
+make -C ps7_cortexa9_0/libsrc/standalone_v5_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make libs in ps7_cortexa9_0/libsrc/bram_v4_0/src
+make -C ps7_cortexa9_0/libsrc/bram_v4_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling bram
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_1/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling coresightps_dcc
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling cpu_cortexa9
+Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling ddrps
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling devcfg
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling dmaps
+Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling emacps
+Running Make libs in ps7_cortexa9_0/libsrc/fir_v1_0/src
+make -C ps7_cortexa9_0/libsrc/fir_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling fir
+Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_0/src
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling gpio
+Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling qspips
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_1/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling scugic
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling scutimer
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling scuwdt
+Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_5/src
+make -C ps7_cortexa9_0/libsrc/sdps_v2_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling sdps
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_2/src
+make -C ps7_cortexa9_0/libsrc/standalone_v5_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling standalone
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling uartps
+Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling usbps
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling xadcps
+Finished building libraries
+11:31:18 **** Build of configuration Debug for project Timer_testing ****
+make all 
+Building file: ../src/platform.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building file: ../src/timerIP_test.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/timerIP_test.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/timerIP_test.d" -MT"src/timerIP_test.d" -o "src/timerIP_test.o" "../src/timerIP_test.c"
+../src/timerIP_test.c: In function 'main':
+../src/timerIP_test.c:30:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(10);
+  ^
+../src/timerIP_test.c:21:10: warning: unused variable 'status' [-Wunused-variable]
+  int i=0,status;
+          ^
+../src/timerIP_test.c:21:6: warning: unused variable 'i' [-Wunused-variable]
+  int i=0,status;
+      ^
+../src/timerIP_test.c:19:6: warning: variable 'Number_Clks' set but not used [-Wunused-but-set-variable]
+  u32 Number_Clks = 300;
+      ^
+../src/timerIP_test.c:18:6: warning: unused variable 'TLRx' [-Wunused-variable]
+  u32 TLRx;
+      ^
+../src/timerIP_test.c:17:6: warning: unused variable 'Addr' [-Wunused-variable]
+  u32 Addr;
+      ^
+../src/timerIP_test.c:16:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/timerIP_test.c
+ 
+Building file: ../src/xfir.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xfir.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xfir.d" -MT"src/xfir.d" -o "src/xfir.o" "../src/xfir.c"
+Finished building: ../src/xfir.c
+ 
+Building file: ../src/xfir_linux.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xfir_linux.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xfir_linux.d" -MT"src/xfir_linux.d" -o "src/xfir_linux.o" "../src/xfir_linux.c"
+Finished building: ../src/xfir_linux.c
+ 
+Building target: Timer_testing.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Timer_testing.elf"  ./src/platform.o ./src/timerIP_test.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_testing.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Timer_testing.elf  |tee "Timer_testing.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25776	   1152	  22580	  49508	   c164	Timer_testing.elf
+Finished building: Timer_testing.elf.size
+ 
+11:31:19 **** Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:61:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:64:9: warning: unknown escape sequence: '\P'
+  printf("\Post ap_start is . . . %d i :%d \n",status,i);
+         ^
+../src/hoping_pps_sync.c:76:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(3);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building file: ../src/platform.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building file: ../src/xfir.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xfir.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xfir.d" -MT"src/xfir.d" -o "src/xfir.o" "../src/xfir.c"
+Finished building: ../src/xfir.c
+ 
+Building file: ../src/xfir_linux.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xfir_linux.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xfir_linux.d" -MT"src/xfir_linux.d" -o "src/xfir_linux.o" "../src/xfir_linux.c"
+Finished building: ../src/xfir_linux.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64308	   2320	  22652	  89280	  15cc0	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+11:33:46 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+11:33:46 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+11:34:42 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+11:34:42 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+11:35:05 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+11:35:05 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+11:35:53 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:61:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:64:9: warning: unknown escape sequence: '\P'
+  printf("\Post ap_start is . . . %d i :%d \n",status,i);
+         ^
+../src/hoping_pps_sync.c:76:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(3);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64308	   2320	  22652	  89280	  15cc0	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+11:36:02 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+11:36:02 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+11:42:34 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:61:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:64:9: warning: unknown escape sequence: '\P'
+  printf("\Post ap_start is . . . %d i :%d \n",status,i);
+         ^
+../src/hoping_pps_sync.c:76:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(3);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64308	   2320	  22652	  89280	  15cc0	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+11:42:36 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+11:42:36 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+11:44:11 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:61:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:64:9: warning: unknown escape sequence: '\P'
+  printf("\Post ap_start is . . . %d i :%d \n",status,i);
+         ^
+../src/hoping_pps_sync.c:76:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(3);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64308	   2320	  22652	  89280	  15cc0	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+11:44:14 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+11:44:14 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+11:44:45 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+11:44:45 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+11:46:22 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:61:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:64:9: warning: unknown escape sequence: '\P'
+  printf("\Post ap_start is . . . %d i :%d \n",status,i);
+         ^
+../src/hoping_pps_sync.c:76:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(3);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64308	   2320	  22652	  89280	  15cc0	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+11:46:24 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+11:46:24 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+11:46:53 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+11:46:53 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+11:48:07 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:61:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:64:9: warning: unknown escape sequence: '\P'
+  printf("\Post ap_start is . . . %d i :%d \n",status,i);
+         ^
+../src/hoping_pps_sync.c:76:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(3);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64308	   2320	  22652	  89280	  15cc0	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+11:48:09 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+11:48:10 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+11:49:01 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+11:49:01 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+11:49:22 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+11:49:22 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+11:55:25 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+11:55:25 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+11:55:53 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+11:55:53 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+11:57:59 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+11:57:59 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+11:58:34 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+11:58:35 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+12:06:44 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+12:06:45 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+12:08:07 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:61:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:64:9: warning: unknown escape sequence: '\P'
+  printf("\Post ap_start is . . . %d i :%d \n",status,i);
+         ^
+../src/hoping_pps_sync.c:76:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(3);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64244	   2320	  22652	  89216	  15c80	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+12:08:16 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:61:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:64:9: warning: unknown escape sequence: '\P'
+  printf("\Post ap_start is . . . %d i :%d \n",status,i);
+         ^
+../src/hoping_pps_sync.c:76:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(3);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64244	   2320	  22652	  89216	  15c80	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+12:08:21 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+12:08:21 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+12:08:39 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:61:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:64:9: warning: unknown escape sequence: '\P'
+  printf("\Post ap_start is . . . %d i :%d \n",status,i);
+         ^
+../src/hoping_pps_sync.c:76:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(3);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64308	   2320	  22652	  89280	  15cc0	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+12:08:41 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+12:08:41 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+12:10:50 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:60:2: error: 'else' without a previous 'if'
+  else
+  ^
+../src/hoping_pps_sync.c:63:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:66:9: warning: unknown escape sequence: '\P'
+  printf("\Post ap_start is . . . %d i :%d \n",status,i);
+         ^
+../src/hoping_pps_sync.c:78:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(3);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+make: *** [src/hoping_pps_sync.o] Error 1
+12:11:58 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:60:3: error: 'else' without a previous 'if'
+   else
+   ^
+../src/hoping_pps_sync.c:63:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:66:9: warning: unknown escape sequence: '\P'
+  printf("\Post ap_start is . . . %d i :%d \n",status,i);
+         ^
+../src/hoping_pps_sync.c:78:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(3);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+make: *** [src/hoping_pps_sync.o] Error 1
+12:12:10 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:60:3: error: 'else' without a previous 'if'
+   else
+   ^
+../src/hoping_pps_sync.c:63:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:66:9: warning: unknown escape sequence: '\P'
+  printf("\Post ap_start is . . . %d i :%d \n",status,i);
+         ^
+../src/hoping_pps_sync.c:78:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(3);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+make: *** [src/hoping_pps_sync.o] Error 1
+12:12:16 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:60:3: error: 'else' without a previous 'if'
+   else
+   ^
+../src/hoping_pps_sync.c:63:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:66:9: warning: unknown escape sequence: '\P'
+  printf("\Post ap_start is . . . %d i :%d \n",status,i);
+         ^
+../src/hoping_pps_sync.c:78:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(3);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+make: *** [src/hoping_pps_sync.o] Error 1
+12:12:20 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:60:3: error: 'else' without a previous 'if'
+   else
+   ^
+../src/hoping_pps_sync.c:63:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:66:9: warning: unknown escape sequence: '\P'
+  printf("\Post ap_start is . . . %d i :%d \n",status,i);
+         ^
+../src/hoping_pps_sync.c:78:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(3);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+make: *** [src/hoping_pps_sync.o] Error 1
+12:13:09 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:65:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:68:9: warning: unknown escape sequence: '\P'
+  printf("\Post ap_start is . . . %d i :%d \n",status,i);
+         ^
+../src/hoping_pps_sync.c:80:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(3);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64308	   2320	  22652	  89280	  15cc0	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+12:13:14 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:65:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:68:9: warning: unknown escape sequence: '\P'
+  printf("\Post ap_start is . . . %d i :%d \n",status,i);
+         ^
+../src/hoping_pps_sync.c:80:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(3);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64308	   2320	  22652	  89280	  15cc0	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+12:13:27 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+12:13:27 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+12:13:46 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+12:13:46 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+12:16:02 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:65:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:68:9: warning: unknown escape sequence: '\P'
+  printf("\Post ap_start is . . . %d i :%d \n",status,i);
+         ^
+../src/hoping_pps_sync.c:80:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(3);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64308	   2320	  22652	  89280	  15cc0	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+12:16:14 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:65:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:68:9: warning: unknown escape sequence: '\P'
+  printf("\Post ap_start is . . . %d i :%d \n",status,i);
+         ^
+../src/hoping_pps_sync.c:80:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(3);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64308	   2320	  22652	  89280	  15cc0	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+12:16:37 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:65:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:68:9: warning: unknown escape sequence: '\P'
+  printf("\Post ap_start is . . . %d i :%d \n",status,i);
+         ^
+../src/hoping_pps_sync.c:80:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(3);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64308	   2320	  22652	  89280	  15cc0	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+12:16:39 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+12:16:39 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+12:17:03 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+12:17:03 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+12:17:44 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+12:17:45 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+12:18:14 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+12:18:14 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+12:19:14 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:66:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:69:9: warning: unknown escape sequence: '\P'
+  printf("\Post ap_start is . . . %d i :%d \n",status,i);
+         ^
+../src/hoping_pps_sync.c:81:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(3);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64308	   2320	  22652	  89280	  15cc0	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+12:19:27 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:63:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:66:9: warning: unknown escape sequence: '\P'
+  printf("\Post ap_start is . . . %d i :%d \n",status,i);
+         ^
+../src/hoping_pps_sync.c:78:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(3);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64308	   2320	  22652	  89280	  15cc0	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+12:19:46 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:63:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:66:9: warning: unknown escape sequence: '\P'
+  printf("\Post ap_start is . . . %d i :%d \n",status,i);
+         ^
+../src/hoping_pps_sync.c:78:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(3);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64308	   2320	  22652	  89280	  15cc0	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+12:19:48 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+12:19:49 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+12:20:22 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:63:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:66:9: warning: unknown escape sequence: '\P'
+  printf("\Post ap_start is . . . %d i :%d \n",status,i);
+         ^
+../src/hoping_pps_sync.c:78:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(3);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64308	   2320	  22652	  89280	  15cc0	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+12:20:33 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:63:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:66:9: warning: unknown escape sequence: '\P'
+  printf("\Post ap_start is . . . %d i :%d \n",status,i);
+         ^
+../src/hoping_pps_sync.c:78:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(3);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64372	   2320	  22652	  89344	  15d00	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+12:20:40 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:63:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:66:9: warning: unknown escape sequence: '\P'
+  printf("\Post ap_start is . . . %d i :%d \n",status,i);
+         ^
+../src/hoping_pps_sync.c:78:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(3);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64372	   2320	  22652	  89344	  15d00	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+12:20:45 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:63:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:66:9: warning: unknown escape sequence: '\P'
+  printf("\Post ap_start is . . . %d i :%d \n",status,i);
+         ^
+../src/hoping_pps_sync.c:78:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(3);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64372	   2320	  22652	  89344	  15d00	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+12:21:27 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:63:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:73:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(3);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64276	   2320	  22652	  89248	  15ca0	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+12:21:37 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:63:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:73:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(3);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64276	   2320	  22652	  89248	  15ca0	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+12:21:39 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+12:21:39 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+12:22:50 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:63:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:73:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(3);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64276	   2320	  22652	  89248	  15ca0	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+12:22:52 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+12:22:52 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+12:26:14 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:63:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:73:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(3);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64276	   2320	  22652	  89248	  15ca0	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+12:26:16 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+12:26:16 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+12:27:29 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:63:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:73:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(3);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64276	   2320	  22652	  89248	  15ca0	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+12:27:31 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+12:27:32 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+12:28:12 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:63:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:73:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(3);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64276	   2320	  22652	  89248	  15ca0	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+12:28:16 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+12:28:16 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+12:28:36 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:63:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:73:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(3);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64276	   2320	  22652	  89248	  15ca0	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+12:28:38 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+12:28:38 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+12:28:58 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:63:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:73:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(3);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64276	   2320	  22652	  89248	  15ca0	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+12:29:01 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+12:29:01 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+12:30:43 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:63:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:73:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(3);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64276	   2320	  22652	  89248	  15ca0	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+12:30:44 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+12:30:44 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+12:31:16 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:63:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:73:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(3);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64276	   2320	  22652	  89248	  15ca0	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+12:31:18 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+12:31:19 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+12:31:41 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:63:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:73:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(3);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64276	   2320	  22652	  89248	  15ca0	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+12:31:43 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+12:31:43 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+12:32:15 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:63:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:73:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(3);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64276	   2320	  22652	  89248	  15ca0	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+12:32:17 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+12:32:17 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+12:34:11 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:63:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:73:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(3);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64276	   2320	  22652	  89248	  15ca0	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+12:34:13 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+12:34:14 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+12:35:42 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+12:35:42 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+12:37:14 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+12:37:14 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+12:37:32 **** Auto Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+12:37:33 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+12:37:41 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+12:37:41 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+12:40:21 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:34:9: warning: unknown escape sequence: '\N'
+  printf("\Number Clocks is . . . %d \n",Number_Clks);
+         ^
+../src/hoping_pps_sync.c:34:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' [-Wformat=]
+  printf("\Number Clocks is . . . %d \n",Number_Clks);
+  ^
+../src/hoping_pps_sync.c:34:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' [-Wformat=]
+../src/hoping_pps_sync.c:64:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:74:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(3);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64300	   2320	  22652	  89272	  15cb8	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+12:40:29 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+12:40:29 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+12:40:55 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+12:40:55 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+12:41:13 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+12:41:13 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+12:43:12 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+12:43:13 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+12:45:15 **** Auto Build of configuration Debug for project Timer_testing ****
+make all 
+Building file: ../src/timerIP_test.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/timerIP_test.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/timerIP_test.d" -MT"src/timerIP_test.d" -o "src/timerIP_test.o" "../src/timerIP_test.c"
+../src/timerIP_test.c: In function 'main':
+../src/timerIP_test.c:30:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(10);
+  ^
+../src/timerIP_test.c:21:10: warning: unused variable 'status' [-Wunused-variable]
+  int i=0,status;
+          ^
+../src/timerIP_test.c:21:6: warning: unused variable 'i' [-Wunused-variable]
+  int i=0,status;
+      ^
+../src/timerIP_test.c:18:6: warning: unused variable 'TLRx' [-Wunused-variable]
+  u32 TLRx;
+      ^
+../src/timerIP_test.c:17:6: warning: unused variable 'Addr' [-Wunused-variable]
+  u32 Addr;
+      ^
+../src/timerIP_test.c:16:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/timerIP_test.c
+ 
+Building target: Timer_testing.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Timer_testing.elf"  ./src/platform.o ./src/timerIP_test.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_testing.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Timer_testing.elf  |tee "Timer_testing.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25784	   1152	  22580	  49516	   c16c	Timer_testing.elf
+Finished building: Timer_testing.elf.size
+ 
+12:45:18 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+12:45:18 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+12:45:52 **** Auto Build of configuration Debug for project Timer_testing ****
+make all 
+Building file: ../src/timerIP_test.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/timerIP_test.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/timerIP_test.d" -MT"src/timerIP_test.d" -o "src/timerIP_test.o" "../src/timerIP_test.c"
+../src/timerIP_test.c: In function 'main':
+../src/timerIP_test.c:30:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(10);
+  ^
+../src/timerIP_test.c:21:10: warning: unused variable 'status' [-Wunused-variable]
+  int i=0,status;
+          ^
+../src/timerIP_test.c:21:6: warning: unused variable 'i' [-Wunused-variable]
+  int i=0,status;
+      ^
+../src/timerIP_test.c:20:6: warning: unused variable 'hope_rate' [-Wunused-variable]
+  u32 hope_rate = 100000;
+      ^
+../src/timerIP_test.c:18:6: warning: unused variable 'TLRx' [-Wunused-variable]
+  u32 TLRx;
+      ^
+../src/timerIP_test.c:17:6: warning: unused variable 'Addr' [-Wunused-variable]
+  u32 Addr;
+      ^
+../src/timerIP_test.c:16:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/timerIP_test.c
+ 
+Building target: Timer_testing.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Timer_testing.elf"  ./src/platform.o ./src/timerIP_test.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_testing.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Timer_testing.elf  |tee "Timer_testing.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25760	   1152	  22580	  49492	   c154	Timer_testing.elf
+Finished building: Timer_testing.elf.size
+ 
+12:45:54 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+12:45:55 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+12:53:33 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+12:53:34 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+12:54:44 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+12:54:44 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+12:55:12 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+12:55:13 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+13:11:15 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:34:9: warning: unknown escape sequence: '\N'
+  printf("\Number Clocks is . . . %d \n",Number_Clks);
+         ^
+../src/hoping_pps_sync.c:34:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' [-Wformat=]
+  printf("\Number Clocks is . . . %d \n",Number_Clks);
+  ^
+../src/hoping_pps_sync.c:34:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' [-Wformat=]
+../src/hoping_pps_sync.c:64:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:74:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(3);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  96632	   2328	  22652	 121612	  1db0c	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+13:11:25 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+13:11:25 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+13:13:06 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+13:13:06 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+13:14:20 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:34:9: warning: unknown escape sequence: '\N'
+  printf("\Number Clocks is . . . %d \n",Number_Clks);
+         ^
+../src/hoping_pps_sync.c:34:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' [-Wformat=]
+  printf("\Number Clocks is . . . %d \n",Number_Clks);
+  ^
+../src/hoping_pps_sync.c:34:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' [-Wformat=]
+../src/hoping_pps_sync.c:64:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:74:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(3);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64300	   2320	  22652	  89272	  15cb8	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+13:14:21 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+13:14:22 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+13:14:42 **** Clean-only build of configuration Debug for project Gap_based_trigger_nointr ****
+make clean 
+rm -rf  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o  ./src/hoping_pps_sync.d ./src/platform.d ./src/xfir.d ./src/xfir_linux.d  Gap_based_trigger_nointr.elf.size  Gap_based_trigger_nointr.elf
+ 
+13:14:42 **** Clean-only build of configuration Debug for project Timer_testing ****
+make clean 
+rm -rf  ./src/platform.o ./src/timerIP_test.o ./src/xfir.o ./src/xfir_linux.o  ./src/platform.d ./src/timerIP_test.d ./src/xfir.d ./src/xfir_linux.d  Timer_testing.elf.size  Timer_testing.elf
+ 
+13:14:42 **** Clean-only build of project standalone_bsp_0 ****
+make -k clean 
+rm -f ps7_cortexa9_0/lib/libxil.a
+13:14:43 **** Build of project standalone_bsp_0 ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/bram_v4_0/src
+make -C ps7_cortexa9_0/libsrc/bram_v4_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_1/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/fir_v1_0/src
+make -C ps7_cortexa9_0/libsrc/fir_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_0/src
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_1/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_5/src
+make -C ps7_cortexa9_0/libsrc/sdps_v2_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_2/src
+make -C ps7_cortexa9_0/libsrc/standalone_v5_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make libs in ps7_cortexa9_0/libsrc/bram_v4_0/src
+make -C ps7_cortexa9_0/libsrc/bram_v4_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling bram
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_1/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling coresightps_dcc
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling cpu_cortexa9
+Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling ddrps
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling devcfg
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling dmaps
+Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling emacps
+Running Make libs in ps7_cortexa9_0/libsrc/fir_v1_0/src
+make -C ps7_cortexa9_0/libsrc/fir_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling fir
+Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_0/src
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling gpio
+Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling qspips
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_1/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling scugic
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling scutimer
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling scuwdt
+Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_5/src
+make -C ps7_cortexa9_0/libsrc/sdps_v2_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling sdps
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_2/src
+make -C ps7_cortexa9_0/libsrc/standalone_v5_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling standalone
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling uartps
+Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling usbps
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling xadcps
+Finished building libraries
+13:14:54 **** Build of configuration Debug for project Timer_testing ****
+make all 
+Building file: ../src/platform.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building file: ../src/timerIP_test.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/timerIP_test.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/timerIP_test.d" -MT"src/timerIP_test.d" -o "src/timerIP_test.o" "../src/timerIP_test.c"
+../src/timerIP_test.c: In function 'main':
+../src/timerIP_test.c:30:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(10);
+  ^
+../src/timerIP_test.c:21:10: warning: unused variable 'status' [-Wunused-variable]
+  int i=0,status;
+          ^
+../src/timerIP_test.c:21:6: warning: unused variable 'i' [-Wunused-variable]
+  int i=0,status;
+      ^
+../src/timerIP_test.c:20:6: warning: unused variable 'hope_rate' [-Wunused-variable]
+  u32 hope_rate = 100000;
+      ^
+../src/timerIP_test.c:18:6: warning: unused variable 'TLRx' [-Wunused-variable]
+  u32 TLRx;
+      ^
+../src/timerIP_test.c:17:6: warning: unused variable 'Addr' [-Wunused-variable]
+  u32 Addr;
+      ^
+../src/timerIP_test.c:16:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/timerIP_test.c
+ 
+Building file: ../src/xfir.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xfir.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xfir.d" -MT"src/xfir.d" -o "src/xfir.o" "../src/xfir.c"
+Finished building: ../src/xfir.c
+ 
+Building file: ../src/xfir_linux.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xfir_linux.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xfir_linux.d" -MT"src/xfir_linux.d" -o "src/xfir_linux.o" "../src/xfir_linux.c"
+Finished building: ../src/xfir_linux.c
+ 
+Building target: Timer_testing.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Timer_testing.elf"  ./src/platform.o ./src/timerIP_test.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Timer_testing.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Timer_testing.elf  |tee "Timer_testing.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25760	   1152	  22580	  49492	   c154	Timer_testing.elf
+Finished building: Timer_testing.elf.size
+ 
+13:14:54 **** Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:34:9: warning: unknown escape sequence: '\N'
+  printf("\Number Clocks is . . . %d \n",Number_Clks);
+         ^
+../src/hoping_pps_sync.c:34:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' [-Wformat=]
+  printf("\Number Clocks is . . . %d \n",Number_Clks);
+  ^
+../src/hoping_pps_sync.c:34:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' [-Wformat=]
+../src/hoping_pps_sync.c:64:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:74:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(3);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building file: ../src/platform.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building file: ../src/xfir.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xfir.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xfir.d" -MT"src/xfir.d" -o "src/xfir.o" "../src/xfir.c"
+Finished building: ../src/xfir.c
+ 
+Building file: ../src/xfir_linux.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xfir_linux.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xfir_linux.d" -MT"src/xfir_linux.d" -o "src/xfir_linux.o" "../src/xfir_linux.c"
+Finished building: ../src/xfir_linux.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64300	   2320	  22652	  89272	  15cb8	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+13:15:13 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+13:15:13 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+13:16:33 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+13:16:33 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+13:16:57 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+13:16:57 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+13:20:12 **** Auto Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+13:20:12 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+13:20:21 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+13:20:21 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+14:15:48 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+14:15:49 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+14:16:10 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:34:9: warning: unknown escape sequence: '\N'
+  printf("\Number Clocks is . . . %d \n",Number_Clks);
+         ^
+../src/hoping_pps_sync.c:34:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' [-Wformat=]
+  printf("\Number Clocks is . . . %d \n",Number_Clks);
+  ^
+../src/hoping_pps_sync.c:34:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' [-Wformat=]
+../src/hoping_pps_sync.c:64:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:74:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(3);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64300	   2320	  22652	  89272	  15cb8	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+14:17:04 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:34:9: warning: unknown escape sequence: '\N'
+  printf("\Number Clocks is . . . %d \n",Number_Clks);
+         ^
+../src/hoping_pps_sync.c:34:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' [-Wformat=]
+  printf("\Number Clocks is . . . %d \n",Number_Clks);
+  ^
+../src/hoping_pps_sync.c:34:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' [-Wformat=]
+../src/hoping_pps_sync.c:64:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:74:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(3);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64300	   2320	  22652	  89272	  15cb8	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+14:17:06 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+14:17:06 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+14:17:34 **** Auto Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+14:17:35 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+14:17:40 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+14:17:40 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+14:21:43 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:34:9: warning: unknown escape sequence: '\N'
+  printf("\Number Clocks is . . . %d \n",Number_Clks);
+         ^
+../src/hoping_pps_sync.c:34:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' [-Wformat=]
+  printf("\Number Clocks is . . . %d \n",Number_Clks);
+  ^
+../src/hoping_pps_sync.c:34:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' [-Wformat=]
+../src/hoping_pps_sync.c:64:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:74:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(3);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64300	   2320	  22652	  89272	  15cb8	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+14:21:45 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+14:21:45 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+14:22:19 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:34:9: warning: unknown escape sequence: '\N'
+  printf("\Number Clocks is . . . %d \n",Number_Clks);
+         ^
+../src/hoping_pps_sync.c:34:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' [-Wformat=]
+  printf("\Number Clocks is . . . %d \n",Number_Clks);
+  ^
+../src/hoping_pps_sync.c:34:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' [-Wformat=]
+../src/hoping_pps_sync.c:64:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:74:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(3);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64300	   2320	  22652	  89272	  15cb8	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+14:22:21 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+14:22:22 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+14:24:29 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:34:9: warning: unknown escape sequence: '\N'
+  printf("\Number Clocks is . . . %d \n",Number_Clks);
+         ^
+../src/hoping_pps_sync.c:34:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' [-Wformat=]
+  printf("\Number Clocks is . . . %d \n",Number_Clks);
+  ^
+../src/hoping_pps_sync.c:34:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' [-Wformat=]
+../src/hoping_pps_sync.c:64:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:74:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(3);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64300	   2320	  22652	  89272	  15cb8	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+14:24:31 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+14:24:31 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+14:24:55 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:34:9: warning: unknown escape sequence: '\N'
+  printf("\Number Clocks is . . . %d \n",Number_Clks);
+         ^
+../src/hoping_pps_sync.c:34:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' [-Wformat=]
+  printf("\Number Clocks is . . . %d \n",Number_Clks);
+  ^
+../src/hoping_pps_sync.c:34:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' [-Wformat=]
+../src/hoping_pps_sync.c:64:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:74:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(3);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64300	   2320	  22652	  89272	  15cb8	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+14:24:58 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+14:24:58 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+14:25:30 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:34:9: warning: unknown escape sequence: '\N'
+  printf("\Number Clocks is . . . %d \n",Number_Clks);
+         ^
+../src/hoping_pps_sync.c:34:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' [-Wformat=]
+  printf("\Number Clocks is . . . %d \n",Number_Clks);
+  ^
+../src/hoping_pps_sync.c:34:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' [-Wformat=]
+../src/hoping_pps_sync.c:64:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:74:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(3);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64300	   2320	  22652	  89272	  15cb8	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
+14:25:32 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+14:25:32 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+14:25:35 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+14:25:35 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+14:25:49 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+14:25:49 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+14:29:00 **** Incremental Build of configuration Debug for project Timer_testing ****
+make all 
+make: Nothing to be done for `all'.
+14:29:00 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+14:30:56 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+Building file: ../src/hoping_pps_sync.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
+../src/hoping_pps_sync.c: In function 'main':
+../src/hoping_pps_sync.c:34:9: warning: unknown escape sequence: '\N'
+  printf("\Number Clocks is . . . %d \n",Number_Clks);
+         ^
+../src/hoping_pps_sync.c:34:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' [-Wformat=]
+  printf("\Number Clocks is . . . %d \n",Number_Clks);
+  ^
+../src/hoping_pps_sync.c:34:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' [-Wformat=]
+../src/hoping_pps_sync.c:64:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  sleep(1);
+  ^
+../src/hoping_pps_sync.c:72:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(5);
+  ^
+../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data[100];
+      ^
+Finished building: ../src/hoping_pps_sync.c
+ 
+Building target: Gap_based_trigger_nointr.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Gap_based_trigger_nointr.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64300	   2320	  22652	  89272	  15cb8	Gap_based_trigger_nointr.elf
+Finished building: Gap_based_trigger_nointr.elf.size
+ 
