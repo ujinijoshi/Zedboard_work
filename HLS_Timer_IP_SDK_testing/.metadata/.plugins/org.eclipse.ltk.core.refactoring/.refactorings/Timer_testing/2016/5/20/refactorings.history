@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;Timer_testing/src/xgpio_low_level_example.c&apos; to &apos;timerIP_test&apos;" description="Rename resource &apos;xgpio_low_level_example.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/xgpio_low_level_example.c" name="timerIP_test" stamp="1463039404308" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;Timer_testing/src/timerIP_test&apos; to &apos;timerIP_test.c&apos;" description="Rename resource &apos;timerIP_test&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/timerIP_test" name="timerIP_test.c" stamp="1463039420433" updateReferences="true"/>
+</session>
