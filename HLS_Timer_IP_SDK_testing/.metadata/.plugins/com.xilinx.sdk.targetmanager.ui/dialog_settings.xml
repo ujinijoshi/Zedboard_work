@@ -5,5 +5,5 @@
 	<item value="z_system_wrapper_hw_platform_0" key="programfpga.hwplatform"/>
 	<item value="false" key="z_system_wrapper_hw_platform_0-partial_bit"/>
 	<item value="Local" key="z_system_wrapper_hw_platform_0-target"/>
-	<item value="z_system_wrapper.bit" key="z_system_wrapper_hw_platform_0-bitFile"/>
+	<item value="/home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP_SDK_testing/ppsin_w12_pulldown_led_pps_edge.bit" key="z_system_wrapper_hw_platform_0-bitFile"/>
 </section>
