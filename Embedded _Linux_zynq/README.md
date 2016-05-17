@@ -1,8 +1,10 @@
-#Device tree bob:
+##Device tree bob:
 [Reference:  ](http://www.wiki.xilinx.com/Build+Device+Tree+Blob)
-edit system.dts bootargs as: 
-“console=ttyPS0,115200 root=/dev/mmcblk0p2 rw earlyprintk rootfstype=ext4 rootwait devtmpfs.mount=0”;
-in command line:
+
+*edit system.dts bootargs as:* 
+"console=ttyPS0,115200 root=/dev/mmcblk0p2 rw earlyprintk rootfstype=ext4 rootwait devtmpfs.mount=0";
+#in command line:
+
 `hsm`
 `cd TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP_SDK_testing/`
 `open_hw_design z_system_wrapper.hdf`
