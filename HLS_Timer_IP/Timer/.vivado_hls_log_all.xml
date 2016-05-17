@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="@W [RTGEN-101] Port 'Timer/pps_en' has no fanin or fanout and is left dangling.&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="Timer" solutionName="solution1" date="2016-05-17T11:43:05.545+0500" type="Warning"/>
+        <logs message="@W [RTGEN-101] Register 'trigger_count' is power-on initialization." projectName="Timer" solutionName="solution1" date="2016-05-17T11:43:05.528+0500" type="Warning"/>
+        <logs message="@W [RTGEN-101] Register 'ticks' is power-on initialization." projectName="Timer" solutionName="solution1" date="2016-05-17T11:43:05.516+0500" type="Warning"/>
+        <logs message="@W [RTGEN-101] Register 'state' is power-on initialization." projectName="Timer" solutionName="solution1" date="2016-05-17T11:43:05.507+0500" type="Warning"/>
+        <logs message="@W [XFORM-311] Ignored reset directive (Timer.c:31:1): variable 'trigger_out' is not static or global variable." projectName="Timer" solutionName="solution1" date="2016-05-17T11:43:05.419+0500" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="Timer" xd:componentRef="Timer" xd:initiationInterval="x" xd:clockPeriod="10.000000" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
+  <xd:controlReg xd:name="control" xd:interfaceRef="ap_ctrl" xd:busTypeRef="acc_handshake" xd:type="acc_handshake"/>
+  <xd:arg xd:name="*(PPS)" xd:originalName="PPS" xd:direction="in" xd:interfaceRef="PPS" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="1"/>
+  <xd:arg xd:name="*(pps_en)" xd:originalName="pps_en" xd:direction="in" xd:interfaceRef="pps_en" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="1"/>
+  <xd:arg xd:name="num_clks" xd:originalName="num_clks" xd:direction="in" xd:interfaceRef="num_clks" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="32"/>
+  <xd:arg xd:name="hop_rate" xd:originalName="hop_rate" xd:direction="in" xd:interfaceRef="hop_rate" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="32"/>
+  <xd:arg xd:name="*(trigger_out)" xd:originalName="trigger_out" xd:direction="out" xd:interfaceRef="trigger_out" xd:busTypeRef="register" xd:handshakeRef="ap_vld" xd:dataWidth="1"/>
+  <xd:arg xd:name="*(pps_edge)" xd:originalName="pps_edge" xd:direction="out" xd:interfaceRef="pps_edge" xd:busTypeRef="register" xd:handshakeRef="ap_vld" xd:dataWidth="1"/>
+  <xd:latencyEstimates xd:best-case="undef" xd:worst-case="undef" xd:average-case="undef"/>
+  <xd:resourceEstimates xd:LUT="184" xd:FF="167" xd:BRAM="0" xd:DSP="0"/>
+</xd:acceleratorMap>

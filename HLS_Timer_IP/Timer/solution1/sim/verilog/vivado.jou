@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2015.3 (64-bit)
+# SW Build 1368829 on Mon Sep 28 20:06:39 MDT 2015
+# IP Build 1367837 on Mon Sep 28 08:56:14 MDT 2015
+# Start of session at: Tue May 10 14:43:43 2016
+# Process ID: 16765
+# Current directory: /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/Timer_HLS_Project/Timer/Timer/solution1/sim/verilog
+# Command line: vivado -source open_wave.tcl
+# Log file: /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/Timer_HLS_Project/Timer/Timer/solution1/sim/verilog/vivado.log
+# Journal file: /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/Timer_HLS_Project/Timer/Timer/solution1/sim/verilog/vivado.jou
+#-----------------------------------------------------------
+start_gui
+source open_wave.tcl
+open_wave_config /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/Timer_HLS_Project/Timer/Timer/solution1/sim/verilog/Timer.wcfg
+close_sim

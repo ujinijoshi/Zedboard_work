@@ -1,0 +1,20 @@
+Vivado Simulator 2015.3
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado/2015.3/bin/unwrapped/lnx64.o/xelab xil_defaultlib.apatb_Timer_top -prj Timer.prj --lib ieee_proposed=./ieee_proposed -s Timer -debug wave 
+Multi-threading is on. Using 2 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running fuse with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/Timer_HLS_Project/Timer/Timer/solution1/sim/verilog/Timer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Timer
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/Timer_HLS_Project/Timer/Timer/solution1/sim/verilog/Timer.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_Timer_top
+INFO: [VRFC 10-2458] undeclared symbol ap_clk, assumed default net type wire [/home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/Timer_HLS_Project/Timer/Timer/solution1/sim/verilog/Timer.autotb.v:110]
+INFO: [VRFC 10-2458] undeclared symbol ap_rst, assumed default net type wire [/home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/Timer_HLS_Project/Timer/Timer/solution1/sim/verilog/Timer.autotb.v:111]
+INFO: [VRFC 10-2458] undeclared symbol ap_rst_n, assumed default net type wire [/home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/Timer_HLS_Project/Timer/Timer/solution1/sim/verilog/Timer.autotb.v:124]
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Timer
+Compiling module xil_defaultlib.apatb_Timer_top
+Built simulation snapshot Timer

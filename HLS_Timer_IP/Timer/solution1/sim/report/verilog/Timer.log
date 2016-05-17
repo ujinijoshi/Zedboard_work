@@ -1,0 +1,68 @@
+@I [SIM-47] Using XSIM for RTL simulation.
+@I [SIM-14] Instrumenting C test bench ...
+   Build using "/media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/lnx64/tools/gcc/bin/g++"
+   Compiling apatb_Timer.cpp
+   Compiling (apcc) Timer.c_pre.c.tb.c
+@I [HLS-10] Running '/media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/bin/unwrapped/lnx64.o/apcc'
+            for user 'imranqureshi' on host 'ubuntu' (Linux_x86_64 version 3.16.0-67-generic) on Tue May 10 14:43:07 PKT 2016
+            in directory '/home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/Timer_HLS_Project/Timer/Timer/solution1/sim/wrapc'
+clang: warning: argument unused during compilation: '-fno-builtin-isinf'
+clang: warning: argument unused during compilation: '-fno-builtin-isnan'
+@I [APCC-3] Tmp directory is /tmp/apcc_db_imranqureshi/163631462873387231286
+@I [APCC-1] APCC is done.
+   Compiling (apcc) Timer_test.c_pre.c.tb.c
+@I [HLS-10] Running '/media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/bin/unwrapped/lnx64.o/apcc'
+            for user 'imranqureshi' on host 'ubuntu' (Linux_x86_64 version 3.16.0-67-generic) on Tue May 10 14:43:08 PKT 2016
+            in directory '/home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/Timer_HLS_Project/Timer/Timer/solution1/sim/wrapc'
+clang: warning: argument unused during compilation: '-fno-builtin-isinf'
+clang: warning: argument unused during compilation: '-fno-builtin-isnan'
+/home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/Timer_HLS_Project/Timer/Timer/.settings/Timer_test.c:19:8: warning: incompatible integer to pointer conversion assigning to 'const volatile uint1 *' from 'int' [-Wint-conversion]
+   PPS = 1;
+       ^ ~
+/home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/Timer_HLS_Project/Timer/Timer/.settings/Timer_test.c:22:46: warning: format specifies type 'int' but the argument has type 'volatile uint1 **' [-Wformat]
+     printf("iteration : %d trigger_update: %d num_clks: %d\n",i,&trigger_out,num_clks);
+                                            ~^                   ~~~~~~~~~~~~
+2 warnings generated.
+@I [APCC-3] Tmp directory is /tmp/apcc_db_imranqureshi/164111462873388363142
+@I [APCC-1] APCC is done.
+   Generating cosim.tv.exe
+@I [SIM-302] Starting C TB testing ... 
+@I [SIM-333] Generating C post check test bench ...
+   Build using "/media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/lnx64/tools/gcc/bin/g++"
+   Compiling apatb_Timer.cpp
+   Compiling (apcc) Timer.c_pre.c.tb.c
+@I [HLS-10] Running '/media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/bin/unwrapped/lnx64.o/apcc'
+            for user 'imranqureshi' on host 'ubuntu' (Linux_x86_64 version 3.16.0-67-generic) on Tue May 10 14:43:21 PKT 2016
+            in directory '/home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/Timer_HLS_Project/Timer/Timer/solution1/sim/wrapc_tv'
+clang: warning: argument unused during compilation: '-fno-builtin-isinf'
+clang: warning: argument unused during compilation: '-fno-builtin-isnan'
+@I [APCC-3] Tmp directory is /tmp/apcc_db_imranqureshi/164901462873401248404
+@I [APCC-1] APCC is done.
+   Compiling (apcc) Timer_test.c_pre.c.tb.c
+@I [HLS-10] Running '/media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/bin/unwrapped/lnx64.o/apcc'
+            for user 'imranqureshi' on host 'ubuntu' (Linux_x86_64 version 3.16.0-67-generic) on Tue May 10 14:43:22 PKT 2016
+            in directory '/home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/Timer_HLS_Project/Timer/Timer/solution1/sim/wrapc_tv'
+clang: warning: argument unused during compilation: '-fno-builtin-isinf'
+clang: warning: argument unused during compilation: '-fno-builtin-isnan'
+/home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/Timer_HLS_Project/Timer/Timer/.settings/Timer_test.c:19:8: warning: incompatible integer to pointer conversion assigning to 'const volatile uint1 *' from 'int' [-Wint-conversion]
+   PPS = 1;
+       ^ ~
+/home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/Timer_HLS_Project/Timer/Timer/.settings/Timer_test.c:22:46: warning: format specifies type 'int' but the argument has type 'volatile uint1 **' [-Wformat]
+     printf("iteration : %d trigger_update: %d num_clks: %d\n",i,&trigger_out,num_clks);
+                                            ~^                   ~~~~~~~~~~~~
+2 warnings generated.
+@I [APCC-3] Tmp directory is /tmp/apcc_db_imranqureshi/165381462873402391265
+@I [APCC-1] APCC is done.
+   Generating cosim.tv.exe
+@I [SIM-12] Generating RTL test bench ...
+@I [SIM-323] Starting verilog simulation. 
+iteration : 0 trigger_update: 312590568 num_clks: 7
+iteration : 1 trigger_update: 312590568 num_clks: 7
+iteration : 2 trigger_update: 312590568 num_clks: 7
+iteration : 3 trigger_update: 312590568 num_clks: 7
+iteration : 4 trigger_update: 312590568 num_clks: 7
+iteration : 5 trigger_update: 312590568 num_clks: 7
+iteration : 6 trigger_update: 312590568 num_clks: 7
+iteration : 7 trigger_update: 312590568 num_clks: 7
+iteration : 8 trigger_update: 312590568 num_clks: 7
+@I [SIM-1000] *** C/RTL co-simulation finished: PASS ***

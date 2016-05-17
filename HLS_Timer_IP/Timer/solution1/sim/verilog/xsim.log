@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# xsim v2015.3 (64-bit)
+# SW Build 1368829 on Mon Sep 28 20:06:39 MDT 2015
+# IP Build 1367837 on Mon Sep 28 08:56:14 MDT 2015
+# Start of session at: Tue May 10 14:43:26 2016
+# Process ID: 16684
+# Current directory: /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/Timer_HLS_Project/Timer/Timer/solution1/sim/verilog
+# Command line: xsim -mode tcl -source {xsim.dir/Timer/xsim_script.tcl}
+# Log file: /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/Timer_HLS_Project/Timer/Timer/solution1/sim/verilog/xsim.log
+# Journal file: /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/Timer_HLS_Project/Timer/Timer/solution1/sim/verilog/xsim.jou
+#-----------------------------------------------------------
+source xsim.dir/Timer/xsim_script.tcl
+# xsim {Timer} -maxdeltaid 10000 -autoloadwcfg -tclbatch {Timer.tcl}
+Vivado Simulator 2015.3
+Time resolution is 1 ps
+source Timer.tcl
+## add_wave -r /
+WARNING: Simulation object /apatb_Timer_top/next_trigger_ready_cnt was not traceable in the design for the following reason:
+Vivado Simulator does not yet support tracing of Verilog named events.
+## save_wave_config Timer.wcfg
+## run all
+$finish called at time : 1005 ns : File "/home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/Timer_HLS_Project/Timer/Timer/solution1/sim/verilog/Timer.autotb.v" Line 360
+run: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 270.312 ; gain = 0.000 ; free physical = 665 ; free virtual = 3530
+## quit
+INFO: [Common 17-206] Exiting xsim at Tue May 10 14:43:35 2016...
