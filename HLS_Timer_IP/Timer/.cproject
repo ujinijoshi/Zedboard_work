@@ -29,6 +29,7 @@
 									<listOptionValue builtIn="false" value="/media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/include/ap_sysc"/>
 									<listOptionValue builtIn="false" value="/media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/include"/>
 									<listOptionValue builtIn="false" value="/media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/lnx64/tools/systemc/include"/>
+									<listOptionValue builtIn="false" value="/home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP"/>
 									<listOptionValue builtIn="false" value="/media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/include/etc"/>
 								</option>
 								<option id="gnu.cpp.compiler.option.preprocessor.def.1932743406" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" valueType="definedSymbols">
@@ -46,6 +47,7 @@
 									<listOptionValue builtIn="false" value="/media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/include/ap_sysc"/>
 									<listOptionValue builtIn="false" value="/media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/include"/>
 									<listOptionValue builtIn="false" value="/media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/lnx64/tools/systemc/include"/>
+									<listOptionValue builtIn="false" value="/home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP"/>
 									<listOptionValue builtIn="false" value="/media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/include/etc"/>
 								</option>
 								<option id="gnu.c.compiler.option.preprocessor.def.symbols.1531235180" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" valueType="definedSymbols">
@@ -113,6 +115,7 @@
 									<listOptionValue builtIn="false" value="/media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/include/ap_sysc"/>
 									<listOptionValue builtIn="false" value="/media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/include"/>
 									<listOptionValue builtIn="false" value="/media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/lnx64/tools/systemc/include"/>
+									<listOptionValue builtIn="false" value="/home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP"/>
 									<listOptionValue builtIn="false" value="/media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/include/etc"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.207488632" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
@@ -125,6 +128,7 @@
 									<listOptionValue builtIn="false" value="/media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/include/ap_sysc"/>
 									<listOptionValue builtIn="false" value="/media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/include"/>
 									<listOptionValue builtIn="false" value="/media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/lnx64/tools/systemc/include"/>
+									<listOptionValue builtIn="false" value="/home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP"/>
 									<listOptionValue builtIn="false" value="/media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/include/etc"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.484536811" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>

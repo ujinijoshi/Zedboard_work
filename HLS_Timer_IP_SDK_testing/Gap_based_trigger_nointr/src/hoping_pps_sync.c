@@ -39,6 +39,10 @@ int main()
 	Xil_Out32(XPAR_AXI_GPIO_1_BASEADDR, 0x2); //gpio 1 tones_size
 	Xil_Out32(XPAR_AXI_GPIO_2_BASEADDR, Number_Clks); //gpio 2 Timer Num_Clks
 	Xil_Out32(XPAR_AXI_GPIO_3_BASEADDR, 0x0); //gpio 3 PPS signal for Timer
+
+	Xil_Out32(XPAR_AXI_GPIO_4_BASEADDR, hope_rate); //gpio 3 PPS signal for Timer
+
+	sleep(10);
 	/*
 	 * FIR IP
 	 * Set bit 0  - ap_start	 ---> 01

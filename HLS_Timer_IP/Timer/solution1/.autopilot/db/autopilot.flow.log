@@ -1,714 +1,714 @@
-@I [HLS-0] Workspace /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1 opened at Tue May 17 11:43:20 PKT 2016
+@I [HLS-0] Workspace /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1 opened at Mon May 30 12:02:46 PKT 2016
 @I [HLS-100] Command "config_clock -quiet -name default -period 10 -default=false "
 @I [SYN-201] Setting up clock 'default' with a period of 10ns.
-@I [HLS-100] Command 'config_clock' returned 0; elapsed 8e-05Total elapsed time: 0.332 sec.
+@I [HLS-100] Command 'config_clock' returned 0; elapsed 7.5e-05Total elapsed time: 0.500 sec.
 @I [HLS-100] Command "open_platform DefaultPlatform "
-@I [HLS-100] Command 'open_platform' returned 0; elapsed 6.2e-05Total elapsed time: 0.333 sec.
+@I [HLS-100] Command 'open_platform' returned 0; elapsed 6e-05Total elapsed time: 0.502 sec.
 @I [HLS-100] Command "import_lib /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/zynq/zynq "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/common/xilinx.lib "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/xilinx_interface.lib "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/plb46.lib "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000345Total elapsed time: 0.334 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000344Total elapsed time: 0.502 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/fsl.lib "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000169Total elapsed time: 0.334 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000169Total elapsed time: 0.503 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/axi4.lib "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000242Total elapsed time: 0.334 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000242Total elapsed time: 0.503 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/maxi.lib "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000231Total elapsed time: 0.335 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000203Total elapsed time: 0.503 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/saxilite.lib "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000149Total elapsed time: 0.335 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001553Total elapsed time: 0.335 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000148Total elapsed time: 0.503 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001526Total elapsed time: 0.503 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/common/dsp48.lib "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000148Total elapsed time: 0.335 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000146Total elapsed time: 0.504 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/ip/xfft.lib "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000111Total elapsed time: 0.336 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000108Total elapsed time: 0.504 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/ip/xfir.lib "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 9.8e-05Total elapsed time: 0.336 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 9.8e-05Total elapsed time: 0.504 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/ip/dds_compiler.lib "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 9.9e-05Total elapsed time: 0.336 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.005035Total elapsed time: 0.338 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 9.8e-05Total elapsed time: 0.504 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.005032Total elapsed time: 0.507 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/common/xilinx_old.lib "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000875Total elapsed time: 0.341 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000868Total elapsed time: 0.509 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/common/xilinx_vivado.lib "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000757Total elapsed time: 0.342 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000737Total elapsed time: 0.510 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/common/xilinx.hlp "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/common/target_info.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000173Total elapsed time: 0.345 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000169Total elapsed time: 0.513 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/xilinx_interface.hlp "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/maxi.hlp "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000115Total elapsed time: 0.345 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000134Total elapsed time: 0.513 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/saxilite.hlp "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.00012Total elapsed time: 0.345 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000431Total elapsed time: 0.345 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.00012Total elapsed time: 0.514 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000435Total elapsed time: 0.514 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/common/dsp48.hlp "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000708Total elapsed time: 0.346 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.002691Total elapsed time: 0.347 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000699Total elapsed time: 0.515 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.002658Total elapsed time: 0.515 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/zynq/dsp48e1.hlp "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000105Total elapsed time: 0.347 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000109Total elapsed time: 0.515 sec.
 @I [HLS-100] Command "get_default_platform "
-@I [HLS-100] Command 'get_default_platform' returned 0; elapsed 9e-06Total elapsed time: 0.347 sec.
+@I [HLS-100] Command 'get_default_platform' returned 0; elapsed 9e-06Total elapsed time: 0.516 sec.
 @I [HLS-100] Command "config_chip_info -quiet -resource  {SLICE 13300}  {LUT 53200}     {FF 106400} {DSP48E 220}   {BRAM 280}  "
-@I [HLS-100] Command 'config_chip_info' returned 0; elapsed 2.2e-05Total elapsed time: 0.347 sec.
+@I [HLS-100] Command 'config_chip_info' returned 0; elapsed 2.2e-05Total elapsed time: 0.516 sec.
 @I [HLS-100] Command "config_chip_info -quiet -speed medium "
-@I [HLS-100] Command 'config_chip_info' returned 0; elapsed 5e-06Total elapsed time: 0.348 sec.
-@I [HLS-100] Command 'import_lib' returned 0; elapsed 0.016128Total elapsed time: 0.349 sec.
+@I [HLS-100] Command 'config_chip_info' returned 0; elapsed 5e-06Total elapsed time: 0.516 sec.
+@I [HLS-100] Command 'import_lib' returned 0; elapsed 0.015982Total elapsed time: 0.518 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/zynq/zynq.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/common/virtex.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/common/xilinx.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/plb46.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001324Total elapsed time: 0.351 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001255Total elapsed time: 0.519 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/fsl.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000476Total elapsed time: 0.352 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000477Total elapsed time: 0.520 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/axi4.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.002404Total elapsed time: 0.354 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.002406Total elapsed time: 0.523 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/nativeAXI4.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/saxilite.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.004507Total elapsed time: 0.359 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.004329Total elapsed time: 0.527 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/maxi.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.010564Total elapsed time: 0.370 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.015334Total elapsed time: 0.370 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.008352Total elapsed time: 0.535 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.012924Total elapsed time: 0.536 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/scripts/xilinxcoregen.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.010665Total elapsed time: 0.381 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.010371Total elapsed time: 0.546 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/XilEDKCoreGen.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.009998Total elapsed time: 0.391 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.010569Total elapsed time: 0.557 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/ip/util.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000206Total elapsed time: 0.391 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.00022Total elapsed time: 0.557 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/ip/xfir.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/tps/tcl/tcllib1.11.1/struct/list.tcl "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/tps/tcl/tcllib1.11.1/cmdline/cmdline.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000928Total elapsed time: 0.410 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.002236Total elapsed time: 0.411 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000846Total elapsed time: 0.576 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001986Total elapsed time: 0.576 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/tps/tcl/tcllib1.11.1/math/bignum.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001144Total elapsed time: 0.425 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.043906Total elapsed time: 0.435 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000812Total elapsed time: 0.589 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.041248Total elapsed time: 0.599 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/ip/xfft.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.151189Total elapsed time: 0.587 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.142853Total elapsed time: 0.742 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/ip/dds_compiler.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.003984Total elapsed time: 0.591 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.240587Total elapsed time: 0.591 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.003943Total elapsed time: 0.746 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.227404Total elapsed time: 0.746 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/common/dsp48.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000254Total elapsed time: 0.593 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.24334Total elapsed time: 0.593 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.243552Total elapsed time: 0.593 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000182Total elapsed time: 0.748 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.229678Total elapsed time: 0.748 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.22985Total elapsed time: 0.748 sec.
 @I [HLS-100] Command "open_platform DefaultPlatform "
-@I [HLS-100] Command 'open_platform' returned 0; elapsed 1e-05Total elapsed time: 0.594 sec.
+@I [HLS-100] Command 'open_platform' returned 0; elapsed 1e-05Total elapsed time: 0.748 sec.
 @I [HLS-100] Command "import_lib /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/zynq/zynq_fpv6 "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/common/xilinx_fpv7.lib "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/common/xilinx_hp.lib "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001179Total elapsed time: 0.595 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.005806Total elapsed time: 0.600 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000807Total elapsed time: 0.749 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.004218Total elapsed time: 0.753 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/common/xilinx_fpv.hlp "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/common/xilinx.hlp "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/common/target_info.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000237Total elapsed time: 0.608 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000244Total elapsed time: 0.761 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/xilinx_interface.hlp "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/maxi.hlp "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000126Total elapsed time: 0.608 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000124Total elapsed time: 0.761 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/saxilite.hlp "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000126Total elapsed time: 0.608 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000431Total elapsed time: 0.608 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000127Total elapsed time: 0.761 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000432Total elapsed time: 0.761 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/common/dsp48.hlp "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.00078Total elapsed time: 0.609 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.002843Total elapsed time: 0.610 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.003576Total elapsed time: 0.610 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000728Total elapsed time: 0.762 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.00284Total elapsed time: 0.763 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.003581Total elapsed time: 0.763 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/zynq/zynq_hp.hlp "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001061Total elapsed time: 0.611 sec.
-@I [HLS-100] Command 'import_lib' returned 0; elapsed 0.023956Total elapsed time: 0.618 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001048Total elapsed time: 0.765 sec.
+@I [HLS-100] Command 'import_lib' returned 0; elapsed 0.022341Total elapsed time: 0.771 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/zynq/zynq_fpv6.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/common/xilinx_fpv6.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001886Total elapsed time: 0.620 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.002091Total elapsed time: 0.620 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001952Total elapsed time: 0.773 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.002164Total elapsed time: 0.773 sec.
 @I [HLS-100] Command "set_part xc7z020clg484-1 "
 @I [HLS-100] Command "add_library xilinx/zynq/zynq:xc7z020:clg484:-1 "
 @I [HLS-100] Command "get_default_platform "
-@I [HLS-100] Command 'get_default_platform' returned 0; elapsed 8e-06Total elapsed time: 0.624 sec.
+@I [HLS-100] Command 'get_default_platform' returned 0; elapsed 8e-06Total elapsed time: 0.777 sec.
 @I [HLS-100] Command "license_exists VIVADO_HLS "
-@I [HLS-100] Command 'license_exists' returned 0; elapsed 8e-06Total elapsed time: 0.625 sec.
+@I [HLS-100] Command 'license_exists' returned 0; elapsed 9e-06Total elapsed time: 0.778 sec.
 @I [HLS-100] Command "get_default_platform "
-@I [HLS-100] Command 'get_default_platform' returned 0; elapsed 5e-06Total elapsed time: 0.625 sec.
+@I [HLS-100] Command 'get_default_platform' returned 0; elapsed 4e-06Total elapsed time: 0.778 sec.
 @I [HLS-100] Command "config_chip_info -quiet -resource  {SLICE 13300}  {LUT 53200}     {FF 106400} {DSP48E 220}   {BRAM 280}  "
-@I [HLS-100] Command 'config_chip_info' returned 0; elapsed 2.3e-05Total elapsed time: 0.626 sec.
+@I [HLS-100] Command 'config_chip_info' returned 0; elapsed 2.7e-05Total elapsed time: 0.778 sec.
 @I [HLS-100] Command "config_chip_info -quiet -speed slow "
-@I [HLS-100] Command 'config_chip_info' returned 0; elapsed 4e-06Total elapsed time: 0.626 sec.
-@I [HLS-100] Command 'add_library' returned 0; elapsed 0.003211Total elapsed time: 0.627 sec.
+@I [HLS-100] Command 'config_chip_info' returned 0; elapsed 7e-06Total elapsed time: 0.779 sec.
+@I [HLS-100] Command 'add_library' returned 0; elapsed 0.003221Total elapsed time: 0.780 sec.
 @I [HLS-100] Command "add_library xilinx/zynq/zynq_fpv6 "
 @I [HLS-100] Command "get_default_platform "
-@I [HLS-100] Command 'get_default_platform' returned 0; elapsed 5e-06Total elapsed time: 0.627 sec.
+@I [HLS-100] Command 'get_default_platform' returned 0; elapsed 5e-06Total elapsed time: 0.780 sec.
 @I [HLS-100] Command "license_exists VIVADO_HLS "
-@I [HLS-100] Command 'license_exists' returned 0; elapsed 6e-06Total elapsed time: 0.628 sec.
-@I [HLS-100] Command 'add_library' returned 0; elapsed 0.001696Total elapsed time: 0.628 sec.
+@I [HLS-100] Command 'license_exists' returned 0; elapsed 6e-06Total elapsed time: 0.781 sec.
+@I [HLS-100] Command 'add_library' returned 0; elapsed 0.001714Total elapsed time: 0.781 sec.
 @I [HLS-10] Setting target device to 'xc7z020clg484-1'
-@I [HLS-100] Command 'set_part' returned 0; elapsed 0.00794Total elapsed time: 0.629 sec.
+@I [HLS-100] Command 'set_part' returned 0; elapsed 0.007935Total elapsed time: 0.782 sec.
 @I [HLS-100] Command "get_default_platform "
-@I [HLS-100] Command 'get_default_platform' returned 0; elapsed 4e-06Total elapsed time: 0.629 sec.
+@I [HLS-100] Command 'get_default_platform' returned 0; elapsed 7e-06Total elapsed time: 0.782 sec.
 @I [HLS-100] Command "config_chip_info -quiet -resource  {SLICE 13300}  {LUT 53200}     {FF 106400} {DSP48E 220}   {BRAM 280}  "
-@I [HLS-100] Command 'config_chip_info' returned 0; elapsed 1.2e-05Total elapsed time: 0.629 sec.
+@I [HLS-100] Command 'config_chip_info' returned 0; elapsed 1.4e-05Total elapsed time: 0.782 sec.
 @I [HLS-100] Command "config_chip_info -quiet -speed slow "
-@I [HLS-100] Command 'config_chip_info' returned 0; elapsed 4e-06Total elapsed time: 0.629 sec.
-@I [HLS-100] Command 'open_solution' returned 0; elapsed 0.30314Total elapsed time: 0.630 sec.
+@I [HLS-100] Command 'config_chip_info' returned 0; elapsed 4e-06Total elapsed time: 0.782 sec.
+@I [HLS-100] Command 'open_solution' returned 0; elapsed 0.287701Total elapsed time: 0.783 sec.
 @I [HLS-100] Command "export_design -format ip_catalog "
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/global.setting.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000226Total elapsed time: 0.635 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.00025Total elapsed time: 0.789 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/generic/autopilot/common.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/generic/autopilot/APCoreGen.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000608Total elapsed time: 0.640 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.0012Total elapsed time: 0.640 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000617Total elapsed time: 0.794 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001209Total elapsed time: 0.794 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/generic/autopilot/op.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000355Total elapsed time: 0.641 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.00034Total elapsed time: 0.795 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/generic/autopilot/op_simcore.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001044Total elapsed time: 0.642 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001029Total elapsed time: 0.796 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/generic/autopilot/interface.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 9.9e-05Total elapsed time: 0.642 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 9.9e-05Total elapsed time: 0.796 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/global.setting.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000181Total elapsed time: 0.642 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000179Total elapsed time: 0.796 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/zynq/zynq.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/common/virtex.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/common/xilinx.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/plb46.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001392Total elapsed time: 0.645 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001394Total elapsed time: 0.798 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/fsl.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000541Total elapsed time: 0.645 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000526Total elapsed time: 0.799 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/axi4.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.002499Total elapsed time: 0.648 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.0025Total elapsed time: 0.801 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/nativeAXI4.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/saxilite.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.005459Total elapsed time: 0.653 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.004448Total elapsed time: 0.806 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/maxi.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.009207Total elapsed time: 0.663 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.014949Total elapsed time: 0.663 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.008408Total elapsed time: 0.815 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.013122Total elapsed time: 0.815 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/scripts/xilinxcoregen.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.010537Total elapsed time: 0.673 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.01027Total elapsed time: 0.825 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/XilEDKCoreGen.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.010392Total elapsed time: 0.684 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.009853Total elapsed time: 0.835 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/ip/util.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000212Total elapsed time: 0.684 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000204Total elapsed time: 0.836 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/ip/xfir.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.041029Total elapsed time: 0.726 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.038301Total elapsed time: 0.874 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/ip/xfft.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.137773Total elapsed time: 0.864 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.129156Total elapsed time: 1.3 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/ip/dds_compiler.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.004353Total elapsed time: 0.868 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.2248Total elapsed time: 0.868 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.004439Total elapsed time: 1.8 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.210931Total elapsed time: 1.8 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/common/dsp48.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000225Total elapsed time: 0.870 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.227241Total elapsed time: 0.870 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.227426Total elapsed time: 0.870 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000224Total elapsed time: 1.10 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.213355Total elapsed time: 1.10 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.21351Total elapsed time: 1.10 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/zynq/zynq_fpv6.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/common/xilinx_fpv6.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001925Total elapsed time: 0.873 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.00208Total elapsed time: 0.873 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001908Total elapsed time: 1.12 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.002063Total elapsed time: 1.12 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/global.setting.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000234Total elapsed time: 0.873 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000219Total elapsed time: 1.13 sec.
 @I [IMPL-8] Exporting RTL as an IP in IP-XACT.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/global.setting.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.00028Total elapsed time: 0.875 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000275Total elapsed time: 1.14 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/global.setting.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000362Total elapsed time: 0.882 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000234Total elapsed time: 1.21 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/generic/autopilot/common.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/generic/autopilot/APCoreGen.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000784Total elapsed time: 0.884 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001778Total elapsed time: 0.884 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000644Total elapsed time: 1.22 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001338Total elapsed time: 1.22 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/generic/autopilot/op.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000407Total elapsed time: 0.885 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000373Total elapsed time: 1.23 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/generic/autopilot/op_simcore.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001245Total elapsed time: 0.886 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001077Total elapsed time: 1.24 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/generic/autopilot/interface.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000138Total elapsed time: 0.887 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.00011Total elapsed time: 1.24 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/global.setting.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000254Total elapsed time: 0.887 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000186Total elapsed time: 1.24 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/zynq/zynq.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/common/virtex.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/common/xilinx.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/plb46.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001246Total elapsed time: 0.889 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001173Total elapsed time: 1.26 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/fsl.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000554Total elapsed time: 0.889 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000531Total elapsed time: 1.27 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/axi4.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.002463Total elapsed time: 0.892 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.002386Total elapsed time: 1.29 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/nativeAXI4.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/saxilite.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.004314Total elapsed time: 0.896 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.004279Total elapsed time: 1.34 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/maxi.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.008184Total elapsed time: 0.905 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.012759Total elapsed time: 0.905 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.008024Total elapsed time: 1.42 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.012557Total elapsed time: 1.42 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/scripts/xilinxcoregen.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.010516Total elapsed time: 0.915 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.010337Total elapsed time: 1.52 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/XilEDKCoreGen.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.009844Total elapsed time: 0.925 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.009763Total elapsed time: 1.62 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/ip/util.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000217Total elapsed time: 0.926 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000211Total elapsed time: 1.63 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/ip/xfir.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.040849Total elapsed time: 0.967 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.039705Total elapsed time: 1.103 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/ip/xfft.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.13437Total elapsed time: 1.101 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.132973Total elapsed time: 1.236 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/ip/dds_compiler.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.004243Total elapsed time: 1.106 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.218153Total elapsed time: 1.106 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.004285Total elapsed time: 1.241 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.215014Total elapsed time: 1.241 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/common/dsp48.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000218Total elapsed time: 1.108 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.220509Total elapsed time: 1.108 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.220684Total elapsed time: 1.108 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000216Total elapsed time: 1.243 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.217295Total elapsed time: 1.243 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.217446Total elapsed time: 1.243 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/zynq/zynq_fpv6.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/common/xilinx_fpv6.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001799Total elapsed time: 1.110 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001956Total elapsed time: 1.110 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.00175Total elapsed time: 1.245 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001904Total elapsed time: 1.245 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/global.setting.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000204Total elapsed time: 1.111 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000204Total elapsed time: 1.246 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/global.setting.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000173Total elapsed time: 1.111 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000172Total elapsed time: 1.246 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/Timer.compgen.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000277Total elapsed time: 1.112 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000187Total elapsed time: 1.246 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/global.setting.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000252Total elapsed time: 1.114 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000203Total elapsed time: 1.250 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/global.setting.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.00024Total elapsed time: 1.115 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000168Total elapsed time: 1.250 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/Timer.compgen.tcl "
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/Timer.rtl_wrap.cfg.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.00042Total elapsed time: 1.116 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000323Total elapsed time: 1.251 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/Timer.rtl_wrap.cfg.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000477Total elapsed time: 1.117 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000323Total elapsed time: 1.252 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/Timer.rtl_wrap.cfg.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000442Total elapsed time: 1.118 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000329Total elapsed time: 1.252 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/Timer.tbgen.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000311Total elapsed time: 1.118 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000235Total elapsed time: 1.253 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/Timer.tbgen.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000246Total elapsed time: 1.119 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.041604Total elapsed time: 1.157 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000184Total elapsed time: 1.253 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.040934Total elapsed time: 1.291 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/global.setting.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000243Total elapsed time: 1.246 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000218Total elapsed time: 1.301 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/global.setting.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.00019Total elapsed time: 1.246 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000172Total elapsed time: 1.301 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/Timer.compgen.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000208Total elapsed time: 1.247 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000184Total elapsed time: 1.301 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/global.setting.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000215Total elapsed time: 1.315 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.00021Total elapsed time: 1.362 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/Timer.constraint.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 9.4e-05Total elapsed time: 1.316 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000226Total elapsed time: 1.364 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/Timer.rtl_wrap.cfg.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000364Total elapsed time: 1.338 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000849Total elapsed time: 1.401 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/Timer.rtl_wrap.cfg.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000309Total elapsed time: 1.339 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000806Total elapsed time: 1.402 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/Timer.rtl_wrap.cfg.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000318Total elapsed time: 1.339 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000795Total elapsed time: 1.403 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/Timer.tbgen.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000177Total elapsed time: 1.339 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000433Total elapsed time: 1.404 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/Timer.tbgen.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000179Total elapsed time: 1.340 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000419Total elapsed time: 1.404 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/global.setting.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000215Total elapsed time: 1.391 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000202Total elapsed time: 1.456 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/global.setting.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000214Total elapsed time: 1.393 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.00018Total elapsed time: 1.458 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/Timer.rtl_wrap.cfg.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.00035Total elapsed time: 1.395 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000329Total elapsed time: 1.460 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/Timer.rtl_wrap.cfg.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000317Total elapsed time: 1.396 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.00032Total elapsed time: 1.460 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/Timer.tbgen.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000185Total elapsed time: 1.396 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000176Total elapsed time: 1.460 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/Timer.tbgen.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.00017Total elapsed time: 1.396 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000167Total elapsed time: 1.461 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/Timer.rtl_wrap.cfg.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000354Total elapsed time: 1.424 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000348Total elapsed time: 1.488 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/Timer.rtl_wrap.cfg.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000319Total elapsed time: 1.424 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.00032Total elapsed time: 1.488 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/Timer.tbgen.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000229Total elapsed time: 1.425 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000184Total elapsed time: 1.489 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/Timer.tbgen.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.00017Total elapsed time: 1.425 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.00017Total elapsed time: 1.489 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/Timer.rtl_wrap.cfg.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000381Total elapsed time: 1.448 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000374Total elapsed time: 1.512 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/Timer.rtl_wrap.cfg.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000318Total elapsed time: 1.449 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000318Total elapsed time: 1.513 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/Timer.tbgen.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000185Total elapsed time: 1.449 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.00018Total elapsed time: 1.513 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/Timer.tbgen.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000205Total elapsed time: 1.449 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000172Total elapsed time: 1.513 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/Timer.constraint.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 9.8e-05Total elapsed time: 1.472 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 8.7e-05Total elapsed time: 1.536 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/global.setting.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000233Total elapsed time: 1.501 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000184Total elapsed time: 1.564 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/global.setting.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000192Total elapsed time: 1.523 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000178Total elapsed time: 1.585 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/Timer.constraint.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 8.3e-05Total elapsed time: 1.523 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 7.9e-05Total elapsed time: 1.585 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/Timer.constraint.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 7.9e-05Total elapsed time: 1.524 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 7.8e-05Total elapsed time: 1.586 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/generic/autopilot/common.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/generic/autopilot/APCoreGen.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000663Total elapsed time: 1.527 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001419Total elapsed time: 1.527 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000661Total elapsed time: 1.589 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001391Total elapsed time: 1.589 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/generic/autopilot/op.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000376Total elapsed time: 1.528 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000389Total elapsed time: 1.590 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/generic/autopilot/op_simcore.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001106Total elapsed time: 1.529 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001082Total elapsed time: 1.591 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/generic/autopilot/interface.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000123Total elapsed time: 1.529 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000127Total elapsed time: 1.591 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/global.setting.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000183Total elapsed time: 1.530 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000185Total elapsed time: 1.591 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/zynq/zynq.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/common/virtex.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/common/xilinx.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/plb46.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001196Total elapsed time: 1.531 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001254Total elapsed time: 1.593 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/fsl.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000532Total elapsed time: 1.532 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.00059Total elapsed time: 1.594 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/axi4.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.002705Total elapsed time: 1.535 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.002828Total elapsed time: 1.597 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/nativeAXI4.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/saxilite.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.004488Total elapsed time: 1.539 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.004466Total elapsed time: 1.601 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/maxi.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.0085Total elapsed time: 1.548 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.013247Total elapsed time: 1.548 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.008415Total elapsed time: 1.610 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.013156Total elapsed time: 1.610 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/scripts/xilinxcoregen.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.010471Total elapsed time: 1.559 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.010399Total elapsed time: 1.620 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/XilEDKCoreGen.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.010825Total elapsed time: 1.570 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.010813Total elapsed time: 1.631 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/ip/util.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000211Total elapsed time: 1.570 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000211Total elapsed time: 1.632 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/ip/xfir.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.040327Total elapsed time: 1.611 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.039542Total elapsed time: 1.672 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/ip/xfft.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.128164Total elapsed time: 1.739 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.12859Total elapsed time: 1.800 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/ip/dds_compiler.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.004382Total elapsed time: 1.744 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.213183Total elapsed time: 1.744 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.004326Total elapsed time: 1.805 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.212849Total elapsed time: 1.805 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/common/dsp48.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000248Total elapsed time: 1.745 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.215535Total elapsed time: 1.746 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.215692Total elapsed time: 1.746 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000212Total elapsed time: 1.807 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.215158Total elapsed time: 1.807 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.215312Total elapsed time: 1.807 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/zynq/zynq_fpv6.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/common/xilinx_fpv6.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001803Total elapsed time: 1.748 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001963Total elapsed time: 1.748 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001827Total elapsed time: 1.809 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001987Total elapsed time: 1.809 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/global.setting.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000506Total elapsed time: 20.347 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.00045Total elapsed time: 23.533 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/generic/autopilot/common.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/generic/autopilot/APCoreGen.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000693Total elapsed time: 20.358 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001608Total elapsed time: 20.359 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.00103Total elapsed time: 23.541 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.002287Total elapsed time: 23.542 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/generic/autopilot/op.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000401Total elapsed time: 20.359 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000604Total elapsed time: 23.543 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/generic/autopilot/op_simcore.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001166Total elapsed time: 20.360 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001784Total elapsed time: 23.545 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/generic/autopilot/interface.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000114Total elapsed time: 20.361 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000162Total elapsed time: 23.545 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/global.setting.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.00019Total elapsed time: 20.361 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000313Total elapsed time: 23.545 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/zynq/zynq.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/common/virtex.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/common/xilinx.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/plb46.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001289Total elapsed time: 20.363 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001891Total elapsed time: 23.548 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/fsl.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000562Total elapsed time: 20.363 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000818Total elapsed time: 23.549 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/axi4.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.002655Total elapsed time: 20.366 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.003868Total elapsed time: 23.553 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/nativeAXI4.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/saxilite.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.00448Total elapsed time: 20.371 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.006615Total elapsed time: 23.560 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/maxi.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.00829Total elapsed time: 20.379 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.013087Total elapsed time: 20.379 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.01244Total elapsed time: 23.573 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.019534Total elapsed time: 23.573 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/scripts/xilinxcoregen.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.011003Total elapsed time: 20.390 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.016423Total elapsed time: 23.589 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/XilEDKCoreGen.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.010078Total elapsed time: 20.401 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.014803Total elapsed time: 23.604 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/ip/util.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000224Total elapsed time: 20.401 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000297Total elapsed time: 23.605 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/ip/xfir.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.040614Total elapsed time: 20.442 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.065133Total elapsed time: 23.670 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/ip/xfft.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.127715Total elapsed time: 20.570 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.233781Total elapsed time: 23.904 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/ip/dds_compiler.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.004497Total elapsed time: 20.574 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.212811Total elapsed time: 20.574 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.007023Total elapsed time: 23.911 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.365212Total elapsed time: 23.911 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/common/dsp48.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000213Total elapsed time: 20.576 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.215087Total elapsed time: 20.576 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.215239Total elapsed time: 20.576 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000305Total elapsed time: 23.914 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.368829Total elapsed time: 23.915 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.369081Total elapsed time: 23.915 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/zynq/zynq_fpv6.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/common/xilinx_fpv6.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001852Total elapsed time: 20.579 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.002059Total elapsed time: 20.579 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.002802Total elapsed time: 23.918 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.003049Total elapsed time: 23.918 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/global.setting.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000226Total elapsed time: 20.579 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000363Total elapsed time: 23.919 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/global.setting.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000185Total elapsed time: 20.580 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000302Total elapsed time: 23.920 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/global.setting.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000206Total elapsed time: 20.583 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000316Total elapsed time: 23.924 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/generic/autopilot/common.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/generic/autopilot/APCoreGen.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.00063Total elapsed time: 20.584 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.00138Total elapsed time: 20.584 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000951Total elapsed time: 23.926 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.002096Total elapsed time: 23.927 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/generic/autopilot/op.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000378Total elapsed time: 20.585 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000572Total elapsed time: 23.927 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/generic/autopilot/op_simcore.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001118Total elapsed time: 20.586 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001673Total elapsed time: 23.929 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/generic/autopilot/interface.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000112Total elapsed time: 20.586 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000171Total elapsed time: 23.929 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/global.setting.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000199Total elapsed time: 20.587 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000319Total elapsed time: 23.930 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/zynq/zynq.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/common/virtex.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/common/xilinx.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/plb46.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001192Total elapsed time: 20.588 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001749Total elapsed time: 23.932 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/fsl.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000537Total elapsed time: 20.589 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000791Total elapsed time: 23.933 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/axi4.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.002481Total elapsed time: 20.592 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.003648Total elapsed time: 23.937 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/nativeAXI4.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/saxilite.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.004297Total elapsed time: 20.596 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.006381Total elapsed time: 23.944 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/maxi.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.008175Total elapsed time: 20.604 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.012729Total elapsed time: 20.604 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.012378Total elapsed time: 23.956 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.01917Total elapsed time: 23.956 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/scripts/xilinxcoregen.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.010894Total elapsed time: 20.615 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.015984Total elapsed time: 23.973 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/XilEDKCoreGen.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.010011Total elapsed time: 20.626 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.014949Total elapsed time: 23.988 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/ip/util.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000208Total elapsed time: 20.626 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000286Total elapsed time: 23.988 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/ip/xfir.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.040996Total elapsed time: 20.667 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.065766Total elapsed time: 24.54 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/ip/xfft.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.127817Total elapsed time: 20.796 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.232462Total elapsed time: 24.288 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/ip/dds_compiler.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.004603Total elapsed time: 20.801 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.212607Total elapsed time: 20.801 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.006853Total elapsed time: 24.295 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.363279Total elapsed time: 24.295 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/common/dsp48.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000239Total elapsed time: 20.803 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.214907Total elapsed time: 20.803 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.215067Total elapsed time: 20.803 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000302Total elapsed time: 24.297 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.366594Total elapsed time: 24.298 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.366821Total elapsed time: 24.298 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/zynq/zynq_fpv6.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/common/xilinx_fpv6.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001778Total elapsed time: 20.805 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001932Total elapsed time: 20.805 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.002749Total elapsed time: 24.301 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.003074Total elapsed time: 24.301 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/global.setting.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000204Total elapsed time: 20.805 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000363Total elapsed time: 24.302 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/global.setting.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000171Total elapsed time: 20.806 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.00028Total elapsed time: 24.302 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/Timer.compgen.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000193Total elapsed time: 20.806 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000305Total elapsed time: 24.303 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/global.setting.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.00024Total elapsed time: 20.845 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000361Total elapsed time: 24.372 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/Timer.constraint.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 8.2e-05Total elapsed time: 20.846 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000114Total elapsed time: 24.374 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/generic/autopilot/common.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/generic/autopilot/APCoreGen.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000627Total elapsed time: 20.847 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001356Total elapsed time: 20.848 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.00094Total elapsed time: 24.376 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.002029Total elapsed time: 24.377 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/generic/autopilot/op.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000376Total elapsed time: 20.848 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000585Total elapsed time: 24.378 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/generic/autopilot/op_simcore.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001105Total elapsed time: 20.850 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001644Total elapsed time: 24.380 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/generic/autopilot/interface.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000117Total elapsed time: 20.850 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000158Total elapsed time: 24.380 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/global.setting.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000189Total elapsed time: 20.850 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000297Total elapsed time: 24.380 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/zynq/zynq.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/common/virtex.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/common/xilinx.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/plb46.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001483Total elapsed time: 20.852 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001858Total elapsed time: 24.383 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/fsl.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000631Total elapsed time: 20.853 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.00081Total elapsed time: 24.384 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/axi4.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.002652Total elapsed time: 20.856 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.00368Total elapsed time: 24.388 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/nativeAXI4.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/saxilite.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.004342Total elapsed time: 20.860 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.006437Total elapsed time: 24.395 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/maxi.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.008648Total elapsed time: 20.869 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.013305Total elapsed time: 20.869 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.012489Total elapsed time: 24.407 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.019318Total elapsed time: 24.407 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/scripts/xilinxcoregen.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.011417Total elapsed time: 20.881 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.016057Total elapsed time: 24.424 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/XilEDKCoreGen.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.010341Total elapsed time: 20.891 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.014782Total elapsed time: 24.438 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/ip/util.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000215Total elapsed time: 20.892 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000285Total elapsed time: 24.439 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/ip/xfir.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.041166Total elapsed time: 20.933 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.065442Total elapsed time: 24.505 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/ip/xfft.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.133923Total elapsed time: 21.67 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.233863Total elapsed time: 24.739 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/ip/dds_compiler.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.004405Total elapsed time: 21.71 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.220722Total elapsed time: 21.72 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.00687Total elapsed time: 24.746 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.364593Total elapsed time: 24.746 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/common/dsp48.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000216Total elapsed time: 21.73 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.223038Total elapsed time: 21.74 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.22319Total elapsed time: 21.74 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000293Total elapsed time: 24.748 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.367994Total elapsed time: 24.749 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.368225Total elapsed time: 24.749 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/zynq/zynq_fpv6.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/common/xilinx_fpv6.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001782Total elapsed time: 21.76 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001938Total elapsed time: 21.76 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.002636Total elapsed time: 24.752 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.002865Total elapsed time: 24.752 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/global.setting.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000468Total elapsed time: 21.89 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000407Total elapsed time: 24.763 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/global.setting.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000262Total elapsed time: 34.376 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000252Total elapsed time: 38.959 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/generic/autopilot/common.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/generic/autopilot/APCoreGen.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001096Total elapsed time: 34.382 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.002508Total elapsed time: 34.383 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000694Total elapsed time: 38.964 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001505Total elapsed time: 38.964 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/generic/autopilot/op.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000661Total elapsed time: 34.384 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000412Total elapsed time: 38.965 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/generic/autopilot/op_simcore.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001433Total elapsed time: 34.386 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.00122Total elapsed time: 38.966 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/generic/autopilot/interface.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000138Total elapsed time: 34.386 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000129Total elapsed time: 38.967 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/global.setting.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000231Total elapsed time: 34.386 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000214Total elapsed time: 38.967 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/zynq/zynq.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/common/virtex.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/common/xilinx.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/plb46.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001434Total elapsed time: 34.388 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001437Total elapsed time: 38.969 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/fsl.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000689Total elapsed time: 34.389 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000635Total elapsed time: 38.970 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/axi4.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.002983Total elapsed time: 34.392 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.002679Total elapsed time: 38.972 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/nativeAXI4.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/saxilite.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.005175Total elapsed time: 34.398 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.004662Total elapsed time: 38.977 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/maxi.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.009103Total elapsed time: 34.407 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.014614Total elapsed time: 34.407 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.008525Total elapsed time: 38.986 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.013502Total elapsed time: 38.986 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/scripts/xilinxcoregen.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.011707Total elapsed time: 34.419 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.011541Total elapsed time: 38.998 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/XilEDKCoreGen.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.010481Total elapsed time: 34.429 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.010334Total elapsed time: 39.8 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/ip/util.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000221Total elapsed time: 34.430 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000228Total elapsed time: 39.9 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/ip/xfir.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.042527Total elapsed time: 34.473 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.043181Total elapsed time: 39.52 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/ip/xfft.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.138464Total elapsed time: 34.611 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.137302Total elapsed time: 39.190 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/ip/dds_compiler.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.005123Total elapsed time: 34.617 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.229568Total elapsed time: 34.617 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.004513Total elapsed time: 39.194 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.226601Total elapsed time: 39.195 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/common/dsp48.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000238Total elapsed time: 34.619 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.231951Total elapsed time: 34.619 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.232114Total elapsed time: 34.619 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000223Total elapsed time: 39.196 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.228959Total elapsed time: 39.197 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.229126Total elapsed time: 39.197 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/zynq/zynq_fpv6.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/common/xilinx_fpv6.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001859Total elapsed time: 34.621 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.002028Total elapsed time: 34.621 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001851Total elapsed time: 39.199 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.002011Total elapsed time: 39.199 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/global.setting.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000269Total elapsed time: 34.621 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000227Total elapsed time: 39.199 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/global.setting.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000202Total elapsed time: 34.622 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000183Total elapsed time: 39.200 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/global.setting.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000229Total elapsed time: 34.625 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000243Total elapsed time: 39.203 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/generic/autopilot/common.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/generic/autopilot/APCoreGen.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.00064Total elapsed time: 34.626 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001377Total elapsed time: 34.627 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000642Total elapsed time: 39.204 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001413Total elapsed time: 39.205 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/generic/autopilot/op.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000378Total elapsed time: 34.627 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.00038Total elapsed time: 39.205 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/generic/autopilot/op_simcore.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001085Total elapsed time: 34.628 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001147Total elapsed time: 39.206 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/generic/autopilot/interface.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.00011Total elapsed time: 34.629 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000111Total elapsed time: 39.207 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/global.setting.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.00019Total elapsed time: 34.629 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000209Total elapsed time: 39.207 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/zynq/zynq.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/common/virtex.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/common/xilinx.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/plb46.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001214Total elapsed time: 34.631 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001235Total elapsed time: 39.209 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/fsl.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000541Total elapsed time: 34.631 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000546Total elapsed time: 39.209 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/axi4.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.002529Total elapsed time: 34.634 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.002494Total elapsed time: 39.212 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/nativeAXI4.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/saxilite.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.00467Total elapsed time: 34.639 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.004355Total elapsed time: 39.216 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/maxi.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.008656Total elapsed time: 34.648 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.013625Total elapsed time: 34.648 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.008981Total elapsed time: 39.226 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.013633Total elapsed time: 39.226 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/scripts/xilinxcoregen.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.012336Total elapsed time: 34.660 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.011543Total elapsed time: 39.237 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/XilEDKCoreGen.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.011471Total elapsed time: 34.672 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.010714Total elapsed time: 39.248 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/ip/util.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000251Total elapsed time: 34.673 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000214Total elapsed time: 39.249 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/ip/xfir.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.04322Total elapsed time: 34.716 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.042085Total elapsed time: 39.291 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/ip/xfft.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.135842Total elapsed time: 34.852 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.133155Total elapsed time: 39.424 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/ip/dds_compiler.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.005007Total elapsed time: 34.858 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.227362Total elapsed time: 34.858 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.005403Total elapsed time: 39.430 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.222273Total elapsed time: 39.430 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/common/dsp48.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000236Total elapsed time: 34.860 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.229828Total elapsed time: 34.860 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.230001Total elapsed time: 34.860 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000237Total elapsed time: 39.432 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.224592Total elapsed time: 39.432 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.224748Total elapsed time: 39.432 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/zynq/zynq_fpv6.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/common/xilinx_fpv6.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001978Total elapsed time: 34.862 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.002152Total elapsed time: 34.862 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001952Total elapsed time: 39.434 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.002168Total elapsed time: 39.434 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/global.setting.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.00022Total elapsed time: 34.863 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000231Total elapsed time: 39.435 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/global.setting.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000175Total elapsed time: 34.863 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000171Total elapsed time: 39.435 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/Timer.compgen.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000193Total elapsed time: 34.863 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000196Total elapsed time: 39.435 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/global.setting.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000249Total elapsed time: 34.903 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000241Total elapsed time: 39.473 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/Timer.constraint.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000106Total elapsed time: 34.904 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 8.6e-05Total elapsed time: 39.474 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/generic/autopilot/common.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/generic/autopilot/APCoreGen.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000645Total elapsed time: 34.906 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001422Total elapsed time: 34.907 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000659Total elapsed time: 39.476 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001453Total elapsed time: 39.476 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/generic/autopilot/op.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000384Total elapsed time: 34.907 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000391Total elapsed time: 39.477 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/generic/autopilot/op_simcore.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001111Total elapsed time: 34.908 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001138Total elapsed time: 39.478 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/generic/autopilot/interface.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000117Total elapsed time: 34.909 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000112Total elapsed time: 39.478 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/global.setting.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000214Total elapsed time: 34.909 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.00022Total elapsed time: 39.478 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/zynq/zynq.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/common/virtex.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/common/xilinx.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/plb46.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001265Total elapsed time: 34.911 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.00125Total elapsed time: 39.480 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/fsl.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000575Total elapsed time: 34.912 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000545Total elapsed time: 39.481 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/axi4.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.002633Total elapsed time: 34.914 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.002542Total elapsed time: 39.484 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/nativeAXI4.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/saxilite.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.004838Total elapsed time: 34.919 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.004492Total elapsed time: 39.488 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/maxi.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.013562Total elapsed time: 34.933 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.018765Total elapsed time: 34.933 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.008646Total elapsed time: 39.497 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.013431Total elapsed time: 39.497 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/scripts/xilinxcoregen.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.011656Total elapsed time: 34.945 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.01139Total elapsed time: 39.509 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/interface/XilEDKCoreGen.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.010704Total elapsed time: 34.956 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.010768Total elapsed time: 39.519 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/ip/util.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000238Total elapsed time: 34.956 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000211Total elapsed time: 39.520 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/ip/xfir.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.043687Total elapsed time: 35.0 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.044015Total elapsed time: 39.564 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/ip/xfft.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.134441Total elapsed time: 35.135 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.129396Total elapsed time: 39.694 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/ip/dds_compiler.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.004573Total elapsed time: 35.140 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.229808Total elapsed time: 35.140 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.004515Total elapsed time: 39.698 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.219238Total elapsed time: 39.698 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/common/dsp48.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000227Total elapsed time: 35.142 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.232158Total elapsed time: 35.142 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.232324Total elapsed time: 35.142 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000223Total elapsed time: 39.700 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.221565Total elapsed time: 39.700 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.221721Total elapsed time: 39.700 sec.
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/zynq/zynq_fpv6.gen "
 @I [HLS-100] Command "source /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/common/technology/xilinx/common/xilinx_fpv6.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001841Total elapsed time: 35.144 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001998Total elapsed time: 35.144 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001809Total elapsed time: 39.702 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001969Total elapsed time: 39.703 sec.
 @I [HLS-100] Command "source /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/.autopilot/db/global.setting.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000318Total elapsed time: 35.153 sec.
-@I [HLS-100] Command 'export_design' returned 0; elapsed 2.54266Total elapsed time: 50.480 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 2.84863Total elapsed time: 50.480 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.000319Total elapsed time: 39.711 sec.
+@I [HLS-100] Command 'export_design' returned 0; elapsed 2.99009Total elapsed time: 55.923 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 3.2808Total elapsed time: 55.923 sec.
 @I [HLS-100] Command "cleanup_all "
-@I [HLS-100] Command 'cleanup_all' returned 0; elapsed 0.000733Total elapsed time: 50.481 sec.
+@I [HLS-100] Command 'cleanup_all' returned 0; elapsed 0.00083Total elapsed time: 55.924 sec.

@@ -1,48 +1,6 @@
-14:35:04 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+15:00:51 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
 make all 
-Building file: ../src/hoping_pps_sync.c
-Invoking: ARM gcc compiler
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hoping_pps_sync.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/hoping_pps_sync.d" -MT"src/hoping_pps_sync.d" -o "src/hoping_pps_sync.o" "../src/hoping_pps_sync.c"
-../src/hoping_pps_sync.c: In function 'main':
-../src/hoping_pps_sync.c:34:9: warning: unknown escape sequence: '\N'
-  printf("\Number Clocks is . . . %d \n",Number_Clks);
-         ^
-../src/hoping_pps_sync.c:34:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' [-Wformat=]
-  printf("\Number Clocks is . . . %d \n",Number_Clks);
-  ^
-../src/hoping_pps_sync.c:34:2: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' [-Wformat=]
-../src/hoping_pps_sync.c:64:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
-  sleep(1);
-  ^
-../src/hoping_pps_sync.c:72:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
-  usleep(2);
-  ^
-../src/hoping_pps_sync.c:24:6: warning: unused variable 'Data' [-Wunused-variable]
-  u32 Data[100];
-      ^
-Finished building: ../src/hoping_pps_sync.c
- 
-Building file: ../src/platform.c
-Invoking: ARM gcc compiler
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
-Finished building: ../src/platform.c
- 
-Building file: ../src/xfir.c
-Invoking: ARM gcc compiler
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xfir.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xfir.d" -MT"src/xfir.d" -o "src/xfir.o" "../src/xfir.c"
-Finished building: ../src/xfir.c
- 
-Building target: Gap_based_trigger_nointr.elf
-Invoking: ARM gcc linker
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Gap_based_trigger_nointr.elf"  ./src/hoping_pps_sync.o ./src/platform.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: Gap_based_trigger_nointr.elf
- 
-Invoking: ARM Print Size
-arm-xilinx-eabi-size Gap_based_trigger_nointr.elf  |tee "Gap_based_trigger_nointr.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  64300	   2320	  22652	  89272	  15cb8	Gap_based_trigger_nointr.elf
-Finished building: Gap_based_trigger_nointr.elf.size
- 
+make: Nothing to be done for `all'.
 
-14:35:05 Build Finished (took 679ms)
+15:00:51 Build Finished (took 76ms)
 

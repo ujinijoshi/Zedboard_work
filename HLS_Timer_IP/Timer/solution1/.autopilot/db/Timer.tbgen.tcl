@@ -1,9 +1,9 @@
 set C_TypeInfoList {{ 
 "Timer" : [[], { "return": [[], "void"]} , [{"ExternC" : 0}], [ {"PPS": [[],{ "pointer": "0"}] }, {"pps_en": [[],{ "pointer": "0"}] }, {"num_clks": [["volatile"],"1"] }, {"hop_rate": [["volatile"],"1"] }, {"trigger_out": [[],{ "pointer": "2"}] }, {"pps_edge": [[],{ "pointer": "2"}] }],[],""], 
+"2": [ "uint1", {"typedef": [[[], {"scalar": "uint1"}],""]}], 
 "1": [ "data_32t", {"typedef": [[[], {"scalar": "unsigned int"}],""]}], 
 "0": [ "bit", {"typedef": [[["const","volatile"],"3"],""]}], 
-"3": [ "uint1", {"typedef": [[[], {"scalar": "uint1"}],""]}], 
-"2": [ "uint1", {"typedef": [[[], {"scalar": "uint1"}],""]}]
+"3": [ "uint1", {"typedef": [[[], {"scalar": "uint1"}],""]}]
 }}
 set moduleName Timer
 set isCombinational 0

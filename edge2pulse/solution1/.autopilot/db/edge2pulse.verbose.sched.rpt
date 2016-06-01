@@ -1,0 +1,154 @@
+
+
+================================================================
+== Vivado HLS Report for 'edge2pulse'
+================================================================
+* Date:           Wed Jun  1 12:58:47 2016
+
+* Version:        2015.3 (Build 1368829 on Mon Sep 28 20:31:51 PM 2015)
+* Project:        edge2pulse
+* Solution:       solution1
+* Product family: zynq
+* Target device:  xc7z020clg484-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +--------+-------+----------+------------+
+    |  Clock | Target| Estimated| Uncertainty|
+    +--------+-------+----------+------------+
+    |ap_clk  |  10.00|      4.31|        1.25|
+    +--------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +-----+-----+-----+-----+---------+
+    |  Latency  |  Interval | Pipeline|
+    | min | max | min | max |   Type  |
+    +-----+-----+-----+-----+---------+
+    |    1|    1|    2|    2|   none  |
+    +-----+-----+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 1
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states: 2
+* Pipeline: 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+	2  / true
+2 --> 
+* FSM state operations: 
+
+ <State 1>: 4.31ns
+ST_1: stg_3 [1/1] 0.00ns
+codeRepl:0  call void (...)* @_ssdm_op_SpecBitsMap(i1 %signal_r) nounwind, !map !7
+
+ST_1: stg_4 [1/1] 0.00ns
+codeRepl:1  call void (...)* @_ssdm_op_SpecBitsMap(i1 false) nounwind, !map !13
+
+ST_1: stg_5 [1/1] 0.00ns
+codeRepl:2  call void (...)* @_ssdm_op_SpecTopModule([11 x i8]* @edge2pulse_str) nounwind
+
+ST_1: signal_read [1/1] 0.00ns
+codeRepl:3  %signal_read = call i1 @_ssdm_op_Read.ap_auto.i1(i1 %signal_r) nounwind
+
+ST_1: stg_7 [1/1] 0.00ns
+codeRepl:4  call void (...)* @_ssdm_op_SpecInterface(i32 0, [13 x i8]* @p_str, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1, [1 x i8]* @p_str1, [1 x i8]* @p_str1) nounwind
+
+ST_1: reg_V_load [1/1] 0.00ns
+codeRepl:5  %reg_V_load = load i3* @reg_V, align 1
+
+ST_1: tmp [1/1] 0.00ns
+codeRepl:6  %tmp = trunc i3 %reg_V_load to i2
+
+ST_1: p_Result_s [1/1] 0.00ns
+codeRepl:7  %p_Result_s = call i3 @_ssdm_op_BitConcatenate.i3.i2.i1(i2 %tmp, i1 %signal_read)
+
+ST_1: stg_11 [1/1] 0.00ns
+codeRepl:8  store i3 %p_Result_s, i3* @reg_V, align 1
+
+ST_1: tmp_1 [1/1] 0.00ns
+codeRepl:9  %tmp_1 = call i1 @_ssdm_op_BitSelect.i1.i3.i32(i3 %reg_V_load, i32 1)
+
+ST_1: tmp_2 [1/1] 0.00ns
+codeRepl:10  %tmp_2 = trunc i3 %reg_V_load to i1
+
+ST_1: p_Result_1_not [1/1] 1.37ns
+codeRepl:11  %p_Result_1_not = xor i1 %tmp_2, true
+
+ST_1: tmp_3 [1/1] 1.37ns
+codeRepl:12  %tmp_3 = or i1 %tmp_1, %p_Result_1_not
+
+ST_1: stg_16 [1/1] 1.57ns
+codeRepl:13  br i1 %tmp_3, label %_ZlsILi3ELb1EE11ap_int_baseIXT_EXT0_EXleT_Li64EEERKS1_i.exit._crit_edge, label %0
+
+ST_1: stg_17 [1/1] 0.00ns
+:0  call void (...)* @_ssdm_op_Wait(i32 1) nounwind
+
+
+ <State 2>: 1.57ns
+ST_2: stg_18 [1/1] 0.00ns
+:1  call void (...)* @_ssdm_op_Wait(i32 1) nounwind
+
+ST_2: stg_19 [1/1] 1.57ns
+:2  br label %_ZlsILi3ELb1EE11ap_int_baseIXT_EXT0_EXleT_Li64EEERKS1_i.exit._crit_edge
+
+ST_2: p_s [1/1] 0.00ns
+_ZlsILi3ELb1EE11ap_int_baseIXT_EXT0_EXleT_Li64EEERKS1_i.exit._crit_edge:0  %p_s = phi i1 [ true, %0 ], [ false, %codeRepl ]
+
+ST_2: stg_21 [1/1] 0.00ns
+_ZlsILi3ELb1EE11ap_int_baseIXT_EXT0_EXleT_Li64EEERKS1_i.exit._crit_edge:1  ret i1 %p_s
+
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+  - Chain level:
+	State 1
+	State 2
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

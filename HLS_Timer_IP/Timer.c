@@ -20,9 +20,9 @@ void Timer (
 	static  data_32t ticks =1;
 	static  data_32t trigger_count =0;
 	static  byte_t   state = 0;
-	static uint2 detect_register=0;
-	volatile uint2 pps_reg=0;
-	//volatile bool pps_edge=0;
+	static  bool InPulseQ=0;
+	static  bool InPulseQQ=0;
+	volatile bool RisingEdgeDetected=0;
 
 
 
@@ -31,10 +31,13 @@ void Timer (
 	#pragma HLS RESET variable=trigger_out
 	#pragma HLS RESET variable=trigger_count
 
-	  pps_reg = *PPS;
-	  detect_register = pps_reg >> 1;
+	//PPS Edge Detection
+	InPulseQ  = *PPS;   // register for input synchronization
+	ap_wait();
+	InPulseQQ  =  InPulseQ;  // one clock cycle delay
 
-	 *pps_edge = (detect_register & 0x01) && !(detect_register & 0x02);
+	*pps_edge = InPulseQ & !InPulseQQ;  // single cycle pulse when rising edge detected
+
 
 switch(state)
       {
@@ -48,6 +51,7 @@ switch(state)
 				ap_wait();
 
 			}
+			*trigger_out = 1;
 			state++;
 			break;
 

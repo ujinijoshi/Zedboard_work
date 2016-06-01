@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'Timer'" level="0">
-<item name = "Date">Tue May 17 11:43:05 2016
+<item name = "Date">Mon May 30 11:57:37 2016
 </item>
 <item name = "Version">2015.3 (Build 1368829 on Mon Sep 28 20:31:51 PM 2015)</item>
 <item name = "Project">Timer</item>
@@ -77,16 +77,16 @@
 </item>
 <item name = "Expression"><table name="" hasTotal="1">
 <keys size="7">Variable Name, Operation, DSP48E, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
-<column name="tmp_4_fu_141_p2">+, 0, 0, 32, 32, 2</column>
-<column name="tmp_8_fu_190_p2">+, 0, 0, 32, 32, 1</column>
-<column name="tmp_9_fu_178_p2">+, 0, 0, 32, 32, 1</column>
-<column name="tmp_5_fu_147_p2">icmp, 0, 0, 11, 32, 32</column>
-<column name="tmp_7_fu_172_p2">icmp, 0, 0, 11, 32, 32</column>
+<column name="tmp_2_fu_123_p2">+, 0, 0, 32, 32, 2</column>
+<column name="tmp_6_fu_172_p2">+, 0, 0, 32, 32, 1</column>
+<column name="tmp_7_fu_160_p2">+, 0, 0, 32, 32, 1</column>
+<column name="tmp_3_fu_129_p2">icmp, 0, 0, 11, 32, 32</column>
+<column name="tmp_5_fu_154_p2">icmp, 0, 0, 11, 32, 32</column>
 </table>
 </item>
 <item name = "Multiplexer"><table name="" hasTotal="1">
 <keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
-<column name="ap_NS_fsm">1, 5, 1, 5</column>
+<column name="ap_NS_fsm">1, 4, 1, 4</column>
 <column name="ticks">32, 2, 32, 64</column>
 <column name="trigger_count">32, 2, 32, 64</column>
 <column name="trigger_out">1, 3, 1, 3</column>
@@ -94,15 +94,16 @@
 </item>
 <item name = "Register"><table name="" hasTotal="1">
 <keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
-<column name="ap_CS_fsm">4, 0, 4, 0</column>
+<column name="PPS_read_reg_195">1, 0, 1, 0</column>
+<column name="ap_CS_fsm">3, 0, 3, 0</column>
 <column name="hop_rate_assign_fu_52">32, 0, 32, 0</column>
 <column name="num_clks_assign_fu_48">32, 0, 32, 0</column>
 <column name="state">1, 0, 1, 0</column>
-<column name="state_load_reg_220">1, 0, 1, 0</column>
+<column name="state_load_reg_200">1, 0, 1, 0</column>
 <column name="ticks">32, 0, 32, 0</column>
-<column name="tmp_5_reg_229">1, 0, 1, 0</column>
+<column name="tmp_3_reg_209">1, 0, 1, 0</column>
 <column name="trigger_count">32, 0, 32, 0</column>
-<column name="trigger_count_load_reg_224">32, 0, 32, 0</column>
+<column name="trigger_count_load_reg_204">32, 0, 32, 0</column>
 </table>
 </item>
 </section>
@@ -134,9 +135,9 @@
 <item name = "Max Delay">4.96</item>
 <item name = "Critical Path Table"><table name="Critical Path Table" hasTotal="0">
 <keys size="15">Name, Operator, Delay, Accumulated Delay, Store Source, Resource, Core, Interface, Type, Port, Array, Scope, Pointer, Callee, Phi Node</keys>
-<column name="'hop_rate_assign_load', Timer.c:58">load, 0.00, 0.00, -, -, -, -, -, -, -, -, &apos;hop_rate&apos;, -, -</column>
-<column name="'tmp_4', Timer.c:58">add, 2.44, 2.44, -, -, -, -, -, -, -, -, -, -, -</column>
-<column name="'tmp_5', Timer.c:58">icmp, 2.52, 4.96, -, -, -, -, -, -, -, -, -, -, -</column>
+<column name="'hop_rate_assign_load', Timer.c:62">load, 0.00, 0.00, -, -, -, -, -, -, -, -, &apos;hop_rate&apos;, -, -</column>
+<column name="'tmp_2', Timer.c:62">add, 2.44, 2.44, -, -, -, -, -, -, -, -, -, -, -</column>
+<column name="'tmp_3', Timer.c:62">icmp, 2.52, 4.96, -, -, -, -, -, -, -, -, -, -, -</column>
 </table>
 </item>
 </section>

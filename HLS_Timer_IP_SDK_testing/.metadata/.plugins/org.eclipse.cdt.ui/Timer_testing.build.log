@@ -1,53 +1,6 @@
-14:35:02 **** Auto Build of configuration Debug for project Timer_testing ****
+15:00:50 **** Incremental Build of configuration Debug for project Timer_testing ****
 make all 
-Building file: ../src/platform.c
-Invoking: ARM gcc compiler
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I/home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP_SDK_testing/standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
-Finished building: ../src/platform.c
- 
-Building file: ../src/timerIP_test.c
-Invoking: ARM gcc compiler
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/timerIP_test.o" -I/home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP_SDK_testing/standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/timerIP_test.d" -MT"src/timerIP_test.d" -o "src/timerIP_test.o" "../src/timerIP_test.c"
-../src/timerIP_test.c: In function 'main':
-../src/timerIP_test.c:30:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
-  usleep(10);
-  ^
-../src/timerIP_test.c:34:2: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
-  sleep(10);
-  ^
-../src/timerIP_test.c:21:10: warning: unused variable 'status' [-Wunused-variable]
-  int i=0,status;
-          ^
-../src/timerIP_test.c:21:6: warning: unused variable 'i' [-Wunused-variable]
-  int i=0,status;
-      ^
-../src/timerIP_test.c:18:6: warning: unused variable 'TLRx' [-Wunused-variable]
-  u32 TLRx;
-      ^
-../src/timerIP_test.c:17:6: warning: unused variable 'Addr' [-Wunused-variable]
-  u32 Addr;
-      ^
-../src/timerIP_test.c:16:6: warning: unused variable 'Data' [-Wunused-variable]
-  u32 Data[100];
-      ^
-Finished building: ../src/timerIP_test.c
- 
-Building file: ../src/xfir.c
-Invoking: ARM gcc compiler
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xfir.o" -I/home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP_SDK_testing/standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xfir.d" -MT"src/xfir.d" -o "src/xfir.o" "../src/xfir.c"
-Finished building: ../src/xfir.c
- 
-Building target: Timer_testing.elf
-Invoking: ARM gcc linker
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L/home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP_SDK_testing/standalone_bsp_0/ps7_cortexa9_0/lib -o "Timer_testing.elf"  ./src/platform.o ./src/timerIP_test.o ./src/xfir.o ./src/xfir_linux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: Timer_testing.elf
- 
-Invoking: ARM Print Size
-arm-xilinx-eabi-size Timer_testing.elf  |tee "Timer_testing.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  25856	   1152	  22580	  49588	   c1b4	Timer_testing.elf
-Finished building: Timer_testing.elf.size
- 
+make: Nothing to be done for `all'.
 
-14:35:04 Build Finished (took 1s.484ms)
+15:00:50 Build Finished (took 73ms)
 

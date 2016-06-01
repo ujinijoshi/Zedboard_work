@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="@W [RTGEN-101] Register 'reg_V' is power-on initialization." projectName="edge2pulse" solutionName="solution1" date="2016-06-01T12:58:47.132+0500" type="Warning"/>
+        <logs message="@W [SYN-107] Renaming port name 'edge2pulse/signal' to 'edge2pulse/signal_r' to avoid the conflict with HDL keywords or other object names." projectName="edge2pulse" solutionName="solution1" date="2016-06-01T12:58:47.074+0500" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

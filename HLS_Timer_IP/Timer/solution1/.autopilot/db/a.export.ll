@@ -56,7 +56,6 @@ declare i16 @_ssdm_op_HDiv(...)
 declare i16 @_ssdm_op_HAdd(...)
 
 define void @Timer(i1* %PPS, i1* %pps_en, i32 %num_clks, i32 %hop_rate, i1* %trigger_out, i1* %pps_edge) nounwind uwtable {
-._crit_edge:
   call void (...)* @_ssdm_op_SpecBitsMap(i1* %PPS) nounwind, !map !0
   call void (...)* @_ssdm_op_SpecBitsMap(i1* %pps_en) nounwind, !map !6
   call void (...)* @_ssdm_op_SpecBitsMap(i32 %num_clks) nounwind, !map !10
@@ -68,69 +67,67 @@ define void @Timer(i1* %PPS, i1* %pps_en, i32 %num_clks, i32 %hop_rate, i1* %tri
   %num_clks_read = call i32 @_ssdm_op_Read.ap_auto.i32(i32 %num_clks) nounwind
   %num_clks_assign = alloca i32, align 4
   %hop_rate_assign = alloca i32, align 4
-  %pps_reg = alloca i1, align 1
   store volatile i32 %num_clks_read, i32* %num_clks_assign, align 4
   store volatile i32 %hop_rate_read, i32* %hop_rate_assign, align 4
-  store volatile i1 false, i1* %pps_reg, align 1
   call void (...)* @_ssdm_op_SpecReset(i1* @state, i32 1, [1 x i8]* @p_str) nounwind
   call void (...)* @_ssdm_op_SpecReset(i32* @ticks, i32 1, [1 x i8]* @p_str) nounwind
   call void (...)* @_ssdm_op_SpecReset(i32* @trigger_count, i32 1, [1 x i8]* @p_str) nounwind
   %PPS_read = call i1 @_ssdm_op_Read.ap_auto.volatile.i1P(i1* %PPS) nounwind
-  store volatile i1 %PPS_read, i1* %pps_reg, align 1
-  %pps_reg_load1 = load volatile i1* %pps_reg, align 1
-  call void @_ssdm_op_Write.ap_auto.volatile.i1P(i1* %pps_edge, i1 false) nounwind
+  call void (...)* @_ssdm_op_Wait(i32 1) nounwind
+  call void @_ssdm_op_Write.ap_auto.volatile.i1P(i1* %pps_edge, i1 %PPS_read) nounwind
   %state_load = load i1* @state, align 1
   call void @_ssdm_op_Write.ap_auto.volatile.i1P(i1* %trigger_out, i1 false) nounwind
   store i32 0, i32* @ticks, align 4
-  br i1 %state_load, label %4, label %0
+  br i1 %state_load, label %5, label %1
 
-; <label>:0                                       ; preds = %._crit_edge
+; <label>:1                                       ; preds = %0
   store i32 0, i32* @trigger_count, align 4
-  br label %1
+  br label %2
 
-; <label>:1                                       ; preds = %2, %0
+; <label>:2                                       ; preds = %3, %1
   %PPS_read_1 = call i1 @_ssdm_op_Read.ap_auto.volatile.i1P(i1* %PPS) nounwind
-  br i1 %PPS_read_1, label %3, label %2
+  br i1 %PPS_read_1, label %4, label %3
 
-; <label>:2                                       ; preds = %1
+; <label>:3                                       ; preds = %2
   call void (...)* @_ssdm_op_Wait(i32 1) nounwind
-  br label %1
+  br label %2
 
-; <label>:3                                       ; preds = %1
+; <label>:4                                       ; preds = %2
+  call void @_ssdm_op_Write.ap_auto.volatile.i1P(i1* %trigger_out, i1 true) nounwind
   store i1 true, i1* @state, align 1
-  br label %._crit_edge1
+  br label %._crit_edge
 
-; <label>:4                                       ; preds = %._crit_edge
+; <label>:5                                       ; preds = %0
   %trigger_count_load = load i32* @trigger_count, align 4
   %hop_rate_assign_load = load volatile i32* %hop_rate_assign, align 4
-  %tmp_4 = add i32 %hop_rate_assign_load, -1
-  %tmp_5 = icmp eq i32 %trigger_count_load, %tmp_4
-  br i1 %tmp_5, label %5, label %.preheader
+  %tmp_2 = add i32 %hop_rate_assign_load, -1
+  %tmp_3 = icmp eq i32 %trigger_count_load, %tmp_2
+  br i1 %tmp_3, label %6, label %.preheader
 
-; <label>:5                                       ; preds = %4
+; <label>:6                                       ; preds = %5
   store i32 0, i32* @trigger_count, align 4
   store i1 false, i1* @state, align 1
-  br label %._crit_edge1
+  br label %._crit_edge
 
-.preheader:                                       ; preds = %4, %6
+.preheader:                                       ; preds = %5, %7
   %ticks_load = load i32* @ticks, align 4
   %num_clks_assign_load = load volatile i32* %num_clks_assign, align 4
-  %tmp_7 = icmp eq i32 %ticks_load, %num_clks_assign_load
-  br i1 %tmp_7, label %7, label %6
-
-; <label>:6                                       ; preds = %.preheader
-  call void (...)* @_ssdm_op_Wait(i32 1) nounwind
-  %tmp_9 = add i32 %ticks_load, 1
-  store i32 %tmp_9, i32* @ticks, align 4
-  br label %.preheader
+  %tmp_5 = icmp eq i32 %ticks_load, %num_clks_assign_load
+  br i1 %tmp_5, label %8, label %7
 
 ; <label>:7                                       ; preds = %.preheader
-  call void @_ssdm_op_Write.ap_auto.volatile.i1P(i1* %trigger_out, i1 true) nounwind
-  %tmp_8 = add i32 %trigger_count_load, 1
-  store i32 %tmp_8, i32* @trigger_count, align 4
-  br label %._crit_edge1
+  call void (...)* @_ssdm_op_Wait(i32 1) nounwind
+  %tmp_7 = add i32 %ticks_load, 1
+  store i32 %tmp_7, i32* @ticks, align 4
+  br label %.preheader
 
-._crit_edge1:                                     ; preds = %7, %5, %3
+; <label>:8                                       ; preds = %.preheader
+  call void @_ssdm_op_Write.ap_auto.volatile.i1P(i1* %trigger_out, i1 true) nounwind
+  %tmp_6 = add i32 %trigger_count_load, 1
+  store i32 %tmp_6, i32* @trigger_count, align 4
+  br label %._crit_edge
+
+._crit_edge:                                      ; preds = %8, %6, %4
   ret void
 }
 

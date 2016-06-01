@@ -1,6 +1,6 @@
 @I [LIC-101] Checked out feature [VIVADO_HLS]
 @I [HLS-10] Running '/media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado_HLS/2015.3/bin/unwrapped/lnx64.o/vivado_hls'
-            for user 'imranqureshi' on host 'ubuntu' (Linux_x86_64 version 3.16.0-67-generic) on Tue May 17 11:43:20 PKT 2016
+            for user 'imranqureshi' on host 'ubuntu' (Linux_x86_64 version 3.16.0-67-generic) on Mon May 30 12:02:45 PKT 2016
             in directory '/home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP'
 @I [HLS-10] Opening project '/home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer'.
 @I [HLS-10] Opening solution '/home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1'.
@@ -17,5 +17,5 @@ source run_ippack.tcl -notrace
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/Vivado/2015.3/data/ip'.
-INFO: [Common 17-206] Exiting Vivado at Tue May 17 11:43:39 2016...
+INFO: [Common 17-206] Exiting Vivado at Mon May 30 12:03:07 2016...
 @I [LIC-101] Checked in feature [VIVADO_HLS]

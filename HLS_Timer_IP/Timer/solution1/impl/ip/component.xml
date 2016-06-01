@@ -551,7 +551,7 @@
       <spirit:file>
         <spirit:name>hdl/vhdl/Timer.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>CHECKSUM_255b2379</spirit:userFileType>
+        <spirit:userFileType>CHECKSUM_e94e5c8d</spirit:userFileType>
       </spirit:file>
     </spirit:fileSet>
     <spirit:fileSet>
@@ -630,8 +630,8 @@
         <xilinx:taxonomy>/VIVADO_HLS_IP</xilinx:taxonomy>
       </xilinx:taxonomies>
       <xilinx:displayName>Timer</xilinx:displayName>
-      <xilinx:coreRevision>1605171143</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2016-05-17T06:43:39Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>1605301202</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2016-05-30T07:03:06Z</xilinx:coreCreationDateTime>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2015.3</xilinx:xilinxVersion>

@@ -6999,9 +6999,9 @@ void Timer (
  static data_32t ticks =1;
  static data_32t trigger_count =0;
  static byte_t state = 0;
- static uint2 detect_register=0;
- volatile uint2 pps_reg=0;
- //volatile bool pps_edge=0;
+ static uint1 InPulseQ=0;
+ static uint1 InPulseQQ=0;
+ volatile uint1 RisingEdgeDetected=0;
 
 
 
@@ -7010,10 +7010,13 @@ _ssdm_op_SpecReset( ticks, 1,  "");
 _ssdm_op_SpecReset( trigger_out, 1,  "");
 _ssdm_op_SpecReset( trigger_count, 1,  "");
 
- pps_reg = *PPS;
-   detect_register = pps_reg >> 1;
+ //PPS Edge Detection
+ InPulseQ = *PPS; // register for input synchronization
+ _ssdm_op_Wait(1);
+ InPulseQQ = InPulseQ; // one clock cycle delay
 
-  *pps_edge = (detect_register & 0x01) && !(detect_register & 0x02);
+ *pps_edge = InPulseQ && ~InPulseQQ; // single cycle pulse when rising edge detected
+
 
 switch(state)
       {
@@ -7027,6 +7030,7 @@ switch(state)
     _ssdm_op_Wait(1);
 
    }
+   *trigger_out = 1;
    state++;
    break;
 

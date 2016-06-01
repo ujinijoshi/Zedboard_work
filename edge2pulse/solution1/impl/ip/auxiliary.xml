@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="edge2pulse" xd:componentRef="edge2pulse" xd:initiationInterval="2" xd:clockPeriod="10.000000" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
+  <xd:returnValue xd:interfaceRef="ap_return" xd:busTypeRef="register" xd:dataWidth="1"/>
+  <xd:arg xd:name="signal" xd:originalName="signal" xd:direction="in" xd:interfaceRef="signal_r" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="1"/>
+  <xd:latencyEstimates xd:best-case="1" xd:worst-case="1" xd:average-case="1"/>
+  <xd:resourceEstimates xd:LUT="5" xd:FF="7" xd:BRAM="0" xd:DSP="0"/>
+</xd:acceleratorMap>

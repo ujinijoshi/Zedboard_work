@@ -44,7 +44,7 @@ set TargetInfo "xc7z020:clg484:-1"
 set SourceFiles {sc {} c ../../Timer.c}
 set SourceFlags {sc {} c {{}}}
 set DirectiveFile {/home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP/Timer/solution1/solution1.directive}
-set TBFiles {verilog {../../Timer.h ../.settings/Timer_test.c} bc {../../Timer.h ../.settings/Timer_test.c} sc {../../Timer.h ../.settings/Timer_test.c} vhdl {../../Timer.h ../.settings/Timer_test.c} c {} cas {../../Timer.h ../.settings/Timer_test.c}}
+set TBFiles {verilog {../.settings/Timer_test.c ../../Timer.h} bc {../.settings/Timer_test.c ../../Timer.h} sc {../.settings/Timer_test.c ../../Timer.h} vhdl {../.settings/Timer_test.c ../../Timer.h} c {} cas {../.settings/Timer_test.c ../../Timer.h}}
 set SpecLanguage "C"
 set TVInFiles {bc {} c {} sc {} cas {} vhdl {} verilog {}}
 set TVOutFiles {bc {} c {} sc {} cas {} vhdl {} verilog {}}

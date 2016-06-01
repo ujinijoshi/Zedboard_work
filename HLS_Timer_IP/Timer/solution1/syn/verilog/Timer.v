@@ -28,16 +28,14 @@ module Timer (
 
 parameter    ap_const_logic_1 = 1'b1;
 parameter    ap_const_logic_0 = 1'b0;
-parameter    ap_ST_st1_fsm_0 = 4'b1;
-parameter    ap_ST_st2_fsm_1 = 4'b10;
-parameter    ap_ST_st3_fsm_2 = 4'b100;
-parameter    ap_ST_st4_fsm_3 = 4'b1000;
+parameter    ap_ST_st1_fsm_0 = 3'b1;
+parameter    ap_ST_st2_fsm_1 = 3'b10;
+parameter    ap_ST_st3_fsm_2 = 3'b100;
 parameter    ap_const_lv32_0 = 32'b00000000000000000000000000000000;
 parameter    ap_const_lv1_1 = 1'b1;
 parameter    ap_const_lv1_0 = 1'b0;
 parameter    ap_const_lv32_1 = 32'b1;
 parameter    ap_const_lv32_2 = 32'b10;
-parameter    ap_const_lv32_3 = 32'b11;
 parameter    ap_const_lv32_FFFFFFFF = 32'b11111111111111111111111111111111;
 parameter    ap_true = 1'b1;
 
@@ -62,31 +60,30 @@ reg ap_ready;
 reg[0:0] trigger_out;
 reg trigger_out_ap_vld;
 reg pps_edge_ap_vld;
-(* fsm_encoding = "none" *) reg   [3:0] ap_CS_fsm = 4'b1;
+(* fsm_encoding = "none" *) reg   [2:0] ap_CS_fsm = 3'b1;
 reg    ap_sig_cseq_ST_st1_fsm_0;
-reg    ap_sig_bdd_20;
+reg    ap_sig_bdd_19;
 reg   [0:0] state = 1'b0;
 reg   [31:0] ticks = 32'b1;
 reg   [31:0] trigger_count = 32'b00000000000000000000000000000000;
-wire   [0:0] state_load_load_fu_130_p1;
-reg   [0:0] state_load_reg_220;
+wire   [0:0] grp_read_fu_68_p2;
+reg   [0:0] PPS_read_reg_195;
+wire   [0:0] state_load_load_fu_112_p1;
+reg   [0:0] state_load_reg_200;
+reg    ap_sig_cseq_ST_st2_fsm_1;
+reg    ap_sig_bdd_50;
+reg   [31:0] trigger_count_load_reg_204;
+wire   [0:0] tmp_3_fu_129_p2;
+reg   [0:0] tmp_3_reg_209;
 reg    ap_sig_cseq_ST_st3_fsm_2;
-reg    ap_sig_bdd_47;
-reg   [31:0] trigger_count_load_reg_224;
-wire   [0:0] tmp_5_fu_147_p2;
-reg   [0:0] tmp_5_reg_229;
-reg    ap_sig_cseq_ST_st4_fsm_3;
-reg    ap_sig_bdd_65;
-wire   [0:0] grp_read_fu_66_p2;
-wire   [31:0] tmp_9_fu_178_p2;
-wire   [0:0] tmp_7_fu_172_p2;
-wire   [31:0] tmp_8_fu_190_p2;
+reg    ap_sig_bdd_68;
+wire   [31:0] tmp_7_fu_160_p2;
+wire   [0:0] tmp_5_fu_154_p2;
+wire   [31:0] tmp_6_fu_172_p2;
 reg   [31:0] num_clks_assign_fu_48;
 reg   [31:0] hop_rate_assign_fu_52;
-reg    ap_sig_cseq_ST_st2_fsm_1;
-reg    ap_sig_bdd_105;
-wire   [31:0] tmp_4_fu_141_p2;
-reg   [3:0] ap_NS_fsm;
+wire   [31:0] tmp_2_fu_123_p2;
+reg   [2:0] ap_NS_fsm;
 
 
 
@@ -105,9 +102,9 @@ always @ (posedge ap_clk) begin : ap_ret_state
     if (ap_rst == 1'b1) begin
         state <= ap_const_lv1_0;
     end else begin
-        if (((ap_const_logic_1 == ap_sig_cseq_ST_st4_fsm_3) & (ap_const_lv1_0 == state_load_reg_220) & ~(ap_const_lv1_0 == grp_read_fu_66_p2))) begin
+        if (((ap_const_logic_1 == ap_sig_cseq_ST_st3_fsm_2) & (ap_const_lv1_0 == state_load_reg_200) & ~(ap_const_lv1_0 == grp_read_fu_68_p2))) begin
             state <= ap_const_lv1_1;
-        end else if (((ap_const_logic_1 == ap_sig_cseq_ST_st3_fsm_2) & ~(ap_const_lv1_0 == state_load_load_fu_130_p1) & ~(ap_const_lv1_0 == tmp_5_fu_147_p2))) begin
+        end else if (((ap_const_logic_1 == ap_sig_cseq_ST_st2_fsm_1) & ~(ap_const_lv1_0 == state_load_load_fu_112_p1) & ~(ap_const_lv1_0 == tmp_3_fu_129_p2))) begin
             state <= ap_const_lv1_0;
         end
     end
@@ -118,8 +115,8 @@ always @ (posedge ap_clk) begin : ap_ret_ticks
     if (ap_rst == 1'b1) begin
         ticks <= ap_const_lv32_1;
     end else begin
-        if (((ap_const_logic_1 == ap_sig_cseq_ST_st4_fsm_3) & ~(ap_const_lv1_0 == state_load_reg_220) & (ap_const_lv1_0 == tmp_5_reg_229) & (ap_const_lv1_0 == tmp_7_fu_172_p2))) begin
-            ticks <= tmp_9_fu_178_p2;
+        if (((ap_const_logic_1 == ap_sig_cseq_ST_st3_fsm_2) & ~(ap_const_lv1_0 == state_load_reg_200) & (ap_const_lv1_0 == tmp_3_reg_209) & (ap_const_lv1_0 == tmp_5_fu_154_p2))) begin
+            ticks <= tmp_7_fu_160_p2;
         end else if (((ap_const_logic_1 == ap_sig_cseq_ST_st1_fsm_0) & ~(ap_start == ap_const_logic_0))) begin
             ticks <= ap_const_lv32_0;
         end
@@ -131,9 +128,9 @@ always @ (posedge ap_clk) begin : ap_ret_trigger_count
     if (ap_rst == 1'b1) begin
         trigger_count <= ap_const_lv32_0;
     end else begin
-        if (((ap_const_logic_1 == ap_sig_cseq_ST_st4_fsm_3) & ~(ap_const_lv1_0 == state_load_reg_220) & (ap_const_lv1_0 == tmp_5_reg_229) & ~(ap_const_lv1_0 == tmp_7_fu_172_p2))) begin
-            trigger_count <= tmp_8_fu_190_p2;
-        end else if ((((ap_const_logic_1 == ap_sig_cseq_ST_st3_fsm_2) & ~(ap_const_lv1_0 == state_load_load_fu_130_p1) & ~(ap_const_lv1_0 == tmp_5_fu_147_p2)) | ((ap_const_logic_1 == ap_sig_cseq_ST_st3_fsm_2) & (ap_const_lv1_0 == state_load_load_fu_130_p1)))) begin
+        if (((ap_const_logic_1 == ap_sig_cseq_ST_st3_fsm_2) & ~(ap_const_lv1_0 == state_load_reg_200) & (ap_const_lv1_0 == tmp_3_reg_209) & ~(ap_const_lv1_0 == tmp_5_fu_154_p2))) begin
+            trigger_count <= tmp_6_fu_172_p2;
+        end else if ((((ap_const_logic_1 == ap_sig_cseq_ST_st2_fsm_1) & ~(ap_const_lv1_0 == state_load_load_fu_112_p1) & ~(ap_const_lv1_0 == tmp_3_fu_129_p2)) | ((ap_const_logic_1 == ap_sig_cseq_ST_st2_fsm_1) & (ap_const_lv1_0 == state_load_load_fu_112_p1)))) begin
             trigger_count <= ap_const_lv32_0;
         end
     end
@@ -141,30 +138,31 @@ end
 
 /// assign process. ///
 always @ (posedge ap_clk) begin
-    if ((ap_const_logic_1 == ap_sig_cseq_ST_st2_fsm_1)) begin
+    if (((ap_const_logic_1 == ap_sig_cseq_ST_st1_fsm_0) & ~(ap_start == ap_const_logic_0))) begin
+        PPS_read_reg_195 <= PPS;
         hop_rate_assign_fu_52 <= hop_rate;
-    end
-end
-
-/// assign process. ///
-always @ (posedge ap_clk) begin
-    if ((ap_const_logic_1 == ap_sig_cseq_ST_st3_fsm_2)) begin
         num_clks_assign_fu_48 <= num_clks;
-        state_load_reg_220 <= state;
     end
 end
 
 /// assign process. ///
 always @ (posedge ap_clk) begin
-    if (((ap_const_logic_1 == ap_sig_cseq_ST_st3_fsm_2) & ~(ap_const_lv1_0 == state_load_load_fu_130_p1))) begin
-        tmp_5_reg_229 <= tmp_5_fu_147_p2;
-        trigger_count_load_reg_224 <= trigger_count;
+    if ((ap_const_logic_1 == ap_sig_cseq_ST_st2_fsm_1)) begin
+        state_load_reg_200 <= state;
+    end
+end
+
+/// assign process. ///
+always @ (posedge ap_clk) begin
+    if (((ap_const_logic_1 == ap_sig_cseq_ST_st2_fsm_1) & ~(ap_const_lv1_0 == state_load_load_fu_112_p1))) begin
+        tmp_3_reg_209 <= tmp_3_fu_129_p2;
+        trigger_count_load_reg_204 <= trigger_count;
     end
 end
 
 /// ap_done assign process. ///
-always @ (state_load_reg_220 or tmp_5_reg_229 or ap_sig_cseq_ST_st4_fsm_3 or grp_read_fu_66_p2 or tmp_7_fu_172_p2) begin
-    if (((ap_const_logic_1 == ap_sig_cseq_ST_st4_fsm_3) & (((ap_const_lv1_0 == state_load_reg_220) & ~(ap_const_lv1_0 == grp_read_fu_66_p2)) | (~(ap_const_lv1_0 == state_load_reg_220) & ~(ap_const_lv1_0 == tmp_5_reg_229)) | (~(ap_const_lv1_0 == state_load_reg_220) & ~(ap_const_lv1_0 == tmp_7_fu_172_p2))))) begin
+always @ (grp_read_fu_68_p2 or state_load_reg_200 or tmp_3_reg_209 or ap_sig_cseq_ST_st3_fsm_2 or tmp_5_fu_154_p2) begin
+    if (((ap_const_logic_1 == ap_sig_cseq_ST_st3_fsm_2) & (((ap_const_lv1_0 == state_load_reg_200) & ~(ap_const_lv1_0 == grp_read_fu_68_p2)) | (~(ap_const_lv1_0 == state_load_reg_200) & ~(ap_const_lv1_0 == tmp_3_reg_209)) | (~(ap_const_lv1_0 == state_load_reg_200) & ~(ap_const_lv1_0 == tmp_5_fu_154_p2))))) begin
         ap_done = ap_const_logic_1;
     end else begin
         ap_done = ap_const_logic_0;
@@ -181,8 +179,8 @@ always @ (ap_start or ap_sig_cseq_ST_st1_fsm_0) begin
 end
 
 /// ap_ready assign process. ///
-always @ (state_load_reg_220 or tmp_5_reg_229 or ap_sig_cseq_ST_st4_fsm_3 or grp_read_fu_66_p2 or tmp_7_fu_172_p2) begin
-    if (((ap_const_logic_1 == ap_sig_cseq_ST_st4_fsm_3) & (((ap_const_lv1_0 == state_load_reg_220) & ~(ap_const_lv1_0 == grp_read_fu_66_p2)) | (~(ap_const_lv1_0 == state_load_reg_220) & ~(ap_const_lv1_0 == tmp_5_reg_229)) | (~(ap_const_lv1_0 == state_load_reg_220) & ~(ap_const_lv1_0 == tmp_7_fu_172_p2))))) begin
+always @ (grp_read_fu_68_p2 or state_load_reg_200 or tmp_3_reg_209 or ap_sig_cseq_ST_st3_fsm_2 or tmp_5_fu_154_p2) begin
+    if (((ap_const_logic_1 == ap_sig_cseq_ST_st3_fsm_2) & (((ap_const_lv1_0 == state_load_reg_200) & ~(ap_const_lv1_0 == grp_read_fu_68_p2)) | (~(ap_const_lv1_0 == state_load_reg_200) & ~(ap_const_lv1_0 == tmp_3_reg_209)) | (~(ap_const_lv1_0 == state_load_reg_200) & ~(ap_const_lv1_0 == tmp_5_fu_154_p2))))) begin
         ap_ready = ap_const_logic_1;
     end else begin
         ap_ready = ap_const_logic_0;
@@ -190,8 +188,8 @@ always @ (state_load_reg_220 or tmp_5_reg_229 or ap_sig_cseq_ST_st4_fsm_3 or grp
 end
 
 /// ap_sig_cseq_ST_st1_fsm_0 assign process. ///
-always @ (ap_sig_bdd_20) begin
-    if (ap_sig_bdd_20) begin
+always @ (ap_sig_bdd_19) begin
+    if (ap_sig_bdd_19) begin
         ap_sig_cseq_ST_st1_fsm_0 = ap_const_logic_1;
     end else begin
         ap_sig_cseq_ST_st1_fsm_0 = ap_const_logic_0;
@@ -199,8 +197,8 @@ always @ (ap_sig_bdd_20) begin
 end
 
 /// ap_sig_cseq_ST_st2_fsm_1 assign process. ///
-always @ (ap_sig_bdd_105) begin
-    if (ap_sig_bdd_105) begin
+always @ (ap_sig_bdd_50) begin
+    if (ap_sig_bdd_50) begin
         ap_sig_cseq_ST_st2_fsm_1 = ap_const_logic_1;
     end else begin
         ap_sig_cseq_ST_st2_fsm_1 = ap_const_logic_0;
@@ -208,26 +206,17 @@ always @ (ap_sig_bdd_105) begin
 end
 
 /// ap_sig_cseq_ST_st3_fsm_2 assign process. ///
-always @ (ap_sig_bdd_47) begin
-    if (ap_sig_bdd_47) begin
+always @ (ap_sig_bdd_68) begin
+    if (ap_sig_bdd_68) begin
         ap_sig_cseq_ST_st3_fsm_2 = ap_const_logic_1;
     end else begin
         ap_sig_cseq_ST_st3_fsm_2 = ap_const_logic_0;
     end
 end
 
-/// ap_sig_cseq_ST_st4_fsm_3 assign process. ///
-always @ (ap_sig_bdd_65) begin
-    if (ap_sig_bdd_65) begin
-        ap_sig_cseq_ST_st4_fsm_3 = ap_const_logic_1;
-    end else begin
-        ap_sig_cseq_ST_st4_fsm_3 = ap_const_logic_0;
-    end
-end
-
 /// pps_edge_ap_vld assign process. ///
-always @ (ap_sig_cseq_ST_st3_fsm_2) begin
-    if ((ap_const_logic_1 == ap_sig_cseq_ST_st3_fsm_2)) begin
+always @ (ap_sig_cseq_ST_st2_fsm_1) begin
+    if ((ap_const_logic_1 == ap_sig_cseq_ST_st2_fsm_1)) begin
         pps_edge_ap_vld = ap_const_logic_1;
     end else begin
         pps_edge_ap_vld = ap_const_logic_0;
@@ -235,10 +224,10 @@ always @ (ap_sig_cseq_ST_st3_fsm_2) begin
 end
 
 /// trigger_out assign process. ///
-always @ (state_load_reg_220 or ap_sig_cseq_ST_st3_fsm_2 or tmp_5_reg_229 or ap_sig_cseq_ST_st4_fsm_3 or tmp_7_fu_172_p2) begin
-    if (((ap_const_logic_1 == ap_sig_cseq_ST_st4_fsm_3) & ~(ap_const_lv1_0 == state_load_reg_220) & (ap_const_lv1_0 == tmp_5_reg_229) & ~(ap_const_lv1_0 == tmp_7_fu_172_p2))) begin
+always @ (grp_read_fu_68_p2 or state_load_reg_200 or ap_sig_cseq_ST_st2_fsm_1 or tmp_3_reg_209 or ap_sig_cseq_ST_st3_fsm_2 or tmp_5_fu_154_p2) begin
+    if ((((ap_const_logic_1 == ap_sig_cseq_ST_st3_fsm_2) & (ap_const_lv1_0 == state_load_reg_200) & ~(ap_const_lv1_0 == grp_read_fu_68_p2)) | ((ap_const_logic_1 == ap_sig_cseq_ST_st3_fsm_2) & ~(ap_const_lv1_0 == state_load_reg_200) & (ap_const_lv1_0 == tmp_3_reg_209) & ~(ap_const_lv1_0 == tmp_5_fu_154_p2)))) begin
         trigger_out = ap_const_lv1_1;
-    end else if ((ap_const_logic_1 == ap_sig_cseq_ST_st3_fsm_2)) begin
+    end else if ((ap_const_logic_1 == ap_sig_cseq_ST_st2_fsm_1)) begin
         trigger_out = ap_const_lv1_0;
     end else begin
         trigger_out = 'bx;
@@ -246,15 +235,15 @@ always @ (state_load_reg_220 or ap_sig_cseq_ST_st3_fsm_2 or tmp_5_reg_229 or ap_
 end
 
 /// trigger_out_ap_vld assign process. ///
-always @ (state_load_reg_220 or ap_sig_cseq_ST_st3_fsm_2 or tmp_5_reg_229 or ap_sig_cseq_ST_st4_fsm_3 or tmp_7_fu_172_p2) begin
-    if (((ap_const_logic_1 == ap_sig_cseq_ST_st3_fsm_2) | ((ap_const_logic_1 == ap_sig_cseq_ST_st4_fsm_3) & ~(ap_const_lv1_0 == state_load_reg_220) & (ap_const_lv1_0 == tmp_5_reg_229) & ~(ap_const_lv1_0 == tmp_7_fu_172_p2)))) begin
+always @ (grp_read_fu_68_p2 or state_load_reg_200 or ap_sig_cseq_ST_st2_fsm_1 or tmp_3_reg_209 or ap_sig_cseq_ST_st3_fsm_2 or tmp_5_fu_154_p2) begin
+    if (((ap_const_logic_1 == ap_sig_cseq_ST_st2_fsm_1) | ((ap_const_logic_1 == ap_sig_cseq_ST_st3_fsm_2) & (ap_const_lv1_0 == state_load_reg_200) & ~(ap_const_lv1_0 == grp_read_fu_68_p2)) | ((ap_const_logic_1 == ap_sig_cseq_ST_st3_fsm_2) & ~(ap_const_lv1_0 == state_load_reg_200) & (ap_const_lv1_0 == tmp_3_reg_209) & ~(ap_const_lv1_0 == tmp_5_fu_154_p2)))) begin
         trigger_out_ap_vld = ap_const_logic_1;
     end else begin
         trigger_out_ap_vld = ap_const_logic_0;
     end
 end
 /// the next state (ap_NS_fsm) of the state machine. ///
-always @ (ap_start or ap_CS_fsm or state_load_reg_220 or tmp_5_reg_229 or grp_read_fu_66_p2 or tmp_7_fu_172_p2) begin
+always @ (ap_start or ap_CS_fsm or grp_read_fu_68_p2 or state_load_reg_200 or tmp_3_reg_209 or tmp_5_fu_154_p2) begin
     case (ap_CS_fsm)
         ap_ST_st1_fsm_0 : 
         begin
@@ -270,14 +259,10 @@ always @ (ap_start or ap_CS_fsm or state_load_reg_220 or tmp_5_reg_229 or grp_re
         end
         ap_ST_st3_fsm_2 : 
         begin
-            ap_NS_fsm = ap_ST_st4_fsm_3;
-        end
-        ap_ST_st4_fsm_3 : 
-        begin
-            if ((((ap_const_lv1_0 == state_load_reg_220) & ~(ap_const_lv1_0 == grp_read_fu_66_p2)) | (~(ap_const_lv1_0 == state_load_reg_220) & ~(ap_const_lv1_0 == tmp_5_reg_229)) | (~(ap_const_lv1_0 == state_load_reg_220) & ~(ap_const_lv1_0 == tmp_7_fu_172_p2)))) begin
+            if ((((ap_const_lv1_0 == state_load_reg_200) & ~(ap_const_lv1_0 == grp_read_fu_68_p2)) | (~(ap_const_lv1_0 == state_load_reg_200) & ~(ap_const_lv1_0 == tmp_3_reg_209)) | (~(ap_const_lv1_0 == state_load_reg_200) & ~(ap_const_lv1_0 == tmp_5_fu_154_p2)))) begin
                 ap_NS_fsm = ap_ST_st1_fsm_0;
             end else begin
-                ap_NS_fsm = ap_ST_st4_fsm_3;
+                ap_NS_fsm = ap_ST_st3_fsm_2;
             end
         end
         default : 
@@ -288,33 +273,28 @@ always @ (ap_start or ap_CS_fsm or state_load_reg_220 or tmp_5_reg_229 or grp_re
 end
 
 
-/// ap_sig_bdd_105 assign process. ///
+/// ap_sig_bdd_19 assign process. ///
 always @ (ap_CS_fsm) begin
-    ap_sig_bdd_105 = (ap_const_lv1_1 == ap_CS_fsm[ap_const_lv32_1]);
+    ap_sig_bdd_19 = (ap_CS_fsm[ap_const_lv32_0] == ap_const_lv1_1);
 end
 
-/// ap_sig_bdd_20 assign process. ///
+/// ap_sig_bdd_50 assign process. ///
 always @ (ap_CS_fsm) begin
-    ap_sig_bdd_20 = (ap_CS_fsm[ap_const_lv32_0] == ap_const_lv1_1);
+    ap_sig_bdd_50 = (ap_const_lv1_1 == ap_CS_fsm[ap_const_lv32_1]);
 end
 
-/// ap_sig_bdd_47 assign process. ///
+/// ap_sig_bdd_68 assign process. ///
 always @ (ap_CS_fsm) begin
-    ap_sig_bdd_47 = (ap_const_lv1_1 == ap_CS_fsm[ap_const_lv32_2]);
+    ap_sig_bdd_68 = (ap_const_lv1_1 == ap_CS_fsm[ap_const_lv32_2]);
 end
-
-/// ap_sig_bdd_65 assign process. ///
-always @ (ap_CS_fsm) begin
-    ap_sig_bdd_65 = (ap_const_lv1_1 == ap_CS_fsm[ap_const_lv32_3]);
-end
-assign grp_read_fu_66_p2 = PPS;
-assign pps_edge = ap_const_lv1_0;
-assign state_load_load_fu_130_p1 = state;
-assign tmp_4_fu_141_p2 = ($signed(hop_rate_assign_fu_52) + $signed(ap_const_lv32_FFFFFFFF));
-assign tmp_5_fu_147_p2 = (trigger_count == tmp_4_fu_141_p2? 1'b1: 1'b0);
-assign tmp_7_fu_172_p2 = (ticks == num_clks_assign_fu_48? 1'b1: 1'b0);
-assign tmp_8_fu_190_p2 = (trigger_count_load_reg_224 + ap_const_lv32_1);
-assign tmp_9_fu_178_p2 = (ticks + ap_const_lv32_1);
+assign grp_read_fu_68_p2 = PPS;
+assign pps_edge = PPS_read_reg_195;
+assign state_load_load_fu_112_p1 = state;
+assign tmp_2_fu_123_p2 = ($signed(hop_rate_assign_fu_52) + $signed(ap_const_lv32_FFFFFFFF));
+assign tmp_3_fu_129_p2 = (trigger_count == tmp_2_fu_123_p2? 1'b1: 1'b0);
+assign tmp_5_fu_154_p2 = (ticks == num_clks_assign_fu_48? 1'b1: 1'b0);
+assign tmp_6_fu_172_p2 = (trigger_count_load_reg_204 + ap_const_lv32_1);
+assign tmp_7_fu_160_p2 = (ticks + ap_const_lv32_1);
 
 
 endmodule //Timer
