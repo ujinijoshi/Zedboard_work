@@ -8474,3 +8474,18 @@ make: Nothing to be done for `all'.
 15:00:51 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
 make all 
 make: Nothing to be done for `all'.
+15:07:59 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+15:13:29 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+15:13:33 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
+make all 
+make: Nothing to be done for `all'.
+15:15:03 **** Auto Build of project device_tree_bsp_pps_sync ****
+make -k all 
+make: Nothing to be done for `all'.
+16:07:43 **** Auto Build of project standalone_bsp_0 ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/bram_v4_0/s

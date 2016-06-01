@@ -1,0 +1,17 @@
+15:51:37 INFO  : Launching XSDB server: xsdb -n /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/SDK/2015.3/scripts/xsdb/xsdb/xsdb-server.tcl
+15:51:40 INFO  : XSDB server has started successfully.
+15:51:40 INFO  : Processing command line option -hwspec /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP_SDK_testing/z_system_wrapper.hdf.
+15:54:12 INFO  : Saving repository preferences.
+15:54:12 INFO  : Reading in cores from local repositories: 
+		 /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/linux_zed_build_source/device-tree-xlnx
+15:54:12 INFO  : Cleaning BSP projects in the workspace.
+18:18:14 INFO  : Launching XSDB server: xsdb -n /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/SDK/2015.3/scripts/xsdb/xsdb/xsdb-server.tcl
+18:18:15 INFO  : XSDB server has started successfully.
+18:18:16 INFO  : Restoring local repository preferences: 
+		 /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/linux_zed_build_source/device-tree-xlnx
+18:18:28 INFO  : Processing command line option -hwspec /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP_SDK_testing/z_system_wrapper.hdf.
+18:18:32 INFO  : Checking for hwspec changes in the project z_system_wrapper_hw_platform_2.
+18:18:42 INFO  : BSP Project P/devicetree_bsp_0 has been successfully migrated.
+18:26:46 INFO  : Invoking Bootgen: bootgen -image pps_edge.bif -o /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/Embedded_Linux_zynq/BOOT.bin
+18:26:46 INFO  : Creating new bif file /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/Embedded_Linux_zynq/pps_edge.bif
+18:26:47 INFO  : Bootgen command execution is done.

@@ -1,6 +1,6 @@
-15:00:51 **** Incremental Build of configuration Debug for project Gap_based_trigger_nointr ****
+15:13:33 **** Auto Build of configuration Debug for project Gap_based_trigger_nointr ****
 make all 
 make: Nothing to be done for `all'.
 
-15:00:51 Build Finished (took 76ms)
+15:13:33 Build Finished (took 76ms)
 

@@ -1,0 +1,6 @@
+the_ROM_image:
+{
+	[bootloader]/home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/Embedded_Linux_zynq/fsbl/Debug/fsbl.elf
+	/home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/Embedded_Linux_zynq/z_system_wrapper_hw_platform_2/z_system_wrapper.bit
+	/media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/linux_zed_build_source/Boot_sdcard/u-boot.elf
+}

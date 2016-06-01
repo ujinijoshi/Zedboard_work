@@ -1,0 +1,34 @@
+#-----------------------------------------------------------
+# hsi v2015.3 (64-bit)
+# SW Build 1368829 on Mon Sep 28 20:06:39 MDT 2015
+# 
+# Start of session at: Wed Jun  1 15:20:03 2016
+# Process ID: 8759
+# Current directory: /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP_SDK_testing
+# Command line: hsi -mode tcl
+# Log file: /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP_SDK_testing/hsi.log
+# Journal file: /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP_SDK_testing/hsi.jou
+#-----------------------------------------------------------
+ls
+WARNING: [Common 17-259] Unknown Tcl command 'ls' sending command to the OS shell for execution.
+open_hw_design z_system_wrapper_hw_platform_0/
+ERROR: [Hsi 55-1699] z_system_wrapper_hw_platform_0/ doesn't have supported extension. Supported Hardware HandOff File extensions are .hwh, .xml, .hsm, .hdf
+ERROR: [Hsi 55-1451] Error: running open_hw_design.
+ERROR: [Common 17-39] 'open_hw_design' failed due to earlier errors.
+open_hw_design z_system_wrapper_hw_platform_0/system.hdf 
+z_system_wrapper
+set_repo_path /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/linux_zed_build_source/device-tree-xlnx create_sw_design device-tree -os device_tree -proc ps7_cortexa9_0
+ERROR: [Common 17-170] Unknown option '-os', please type 'set_repo_path -help' for usage info.
+set_repo_path /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/linux_zed_build_source/device-tree-xlnx 
+INFO: [Hsi 55-1698] elapsed time for repository loading 0 seconds
+create_sw_design device-tree -os device_tree -proc ps7_cortexa9_0
+device-tree
+generate_target -dir edge2pulse_dts
+WARNING: ps7_ethernet_0: No reset found
+WARNING: ps7_usb_0: No reset found
+generate_target: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 284.395 ; gain = 0.000 ; free physical = 221 ; free virtual = 3617
+ls
+WARNING: [Common 17-259] Unknown Tcl command 'ls' sending command to the OS shell for execution.
+invalid command name "cp"
+invalid command name "cp"
+invalid command name "cp"

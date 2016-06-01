@@ -1,0 +1,19 @@
+16:06:47 INFO  : Launching XSDB server: xsdb -n /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/xilinx/SDK/2015.3/scripts/xsdb/xsdb/xsdb-server.tcl
+16:06:54 INFO  : XSDB server has started successfully.
+16:06:54 INFO  : Processing command line option -hwspec /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP_SDK_testing/z_system_wrapper.hdf.
+16:06:54 ERROR : Failed to openhw "/home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/Fast_DDS_Tuner/HLS_Timer_IP_test/z_system_wrapper_hw_platform_0/system.hdf"
+Reason: ERROR: [Common 17-1294] Unable to create directory [/home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/Fast_DDS_Tuner/HLS_Timer_IP_test/z_system_wrapper_hw_platform_0/drivers/fir_v1_0/data].
+
+16:06:54 ERROR : Error occurred while creating hardware platform z_system_wrapper_hw_platform_0 from sysdef
+java.lang.IllegalArgumentException: Invalid Hardware Specification File provided: /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/Fast_DDS_Tuner/HLS_Timer_IP_test/z_system_wrapper_hw_platform_0/system.hdf
+	at com.xilinx.sdk.hw.internal.HwPlatform.<init>(HwPlatform.java:282)
+	at com.xilinx.sdk.hw.internal.HwSpecFactory.createHwSpec(HwSpecFactory.java:53)
+	at com.xilinx.sdk.hw.internal.HwProjectCreator.createHwProjectFromZip(HwProjectCreator.java:117)
+	at com.xilinx.sdk.hw.HwProjectUtil.internalCreate(HwProjectUtil.java:214)
+	at com.xilinx.sdk.hw.HwProjectUtil.makeNewHardwareProject(HwProjectUtil.java:165)
+	at com.xilinx.sdk.hw.HwProjectUtil.makeNewHardwareProject(HwProjectUtil.java:152)
+	at com.xilinx.sdk.hw.HwProjectUtil.makeNewHardwareProject(HwProjectUtil.java:127)
+	at com.xilinx.sdk.startup.InitSDK.processHwSpecArgumentTask(InitSDK.java:417)
+	at com.xilinx.sdk.startup.InitSDK.access$7(InitSDK.java:399)
+	at com.xilinx.sdk.startup.InitSDK$11.run(InitSDK.java:350)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)

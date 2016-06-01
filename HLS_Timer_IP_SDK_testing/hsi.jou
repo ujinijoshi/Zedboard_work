@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# hsi v2015.3 (64-bit)
+# SW Build 1368829 on Mon Sep 28 20:06:39 MDT 2015
+# 
+# Start of session at: Wed Jun  1 15:20:03 2016
+# Process ID: 8759
+# Current directory: /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP_SDK_testing
+# Command line: hsi -mode tcl
+# Log file: /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP_SDK_testing/hsi.log
+# Journal file: /home/imranqureshi/TDL_homework/2_zynq_bram_QSPI_8bit_FIFO/git_sdk_work/HLS_Timer_IP_SDK_testing/hsi.jou
+#-----------------------------------------------------------
+ls
+open_hw_design z_system_wrapper_hw_platform_0/
+open_hw_design z_system_wrapper_hw_platform_0/system.hdf 
+set_repo_path /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/linux_zed_build_source/device-tree-xlnx create_sw_design device-tree -os device_tree -proc ps7_cortexa9_0
+set_repo_path /media/imranqureshi/40edadaa-013a-44ac-bdd0-e7787032b2e2/linux_zed_build_source/device-tree-xlnx 
+create_sw_design device-tree -os device_tree -proc ps7_cortexa9_0
+generate_target -dir edge2pulse_dts
+ls
